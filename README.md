@@ -1,5 +1,6 @@
 # pands-project
 <br/>
+![alt text](https://github.com/VCurry20/pands-project/blob/main/johnMuirlaw.1.jpg)
 <br/>
 
 ## Overview:
