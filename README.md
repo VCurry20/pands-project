@@ -1,8 +1,8 @@
-## pands-project
+# pands-project
 <br/>
 <br/>
 
-# Overview:
+## Overview:
 
 <br/>
 
@@ -13,9 +13,12 @@ This is a data set that examines three species of Iris Plant – Iris Setosa, Ir
 
 In this project I will review the following:
 > A Full data set list
+
 > An Overview of the Data and what it represents
+
 > I will provide graphys that map this data
+
 > Provide an over view of other research material 
 
 
-# Iris Fisher 
+### Iris Fisher 
