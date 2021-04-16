@@ -13,7 +13,9 @@ This is a data set that examines three species of Iris Plant – Iris Setosa, Ir
 In this project I will:
 
 > Provide an overview of the Iris Fisher Data Set
+
 > Provide a copy of the raw data for review
+
 > Provide the following graph representations of the data:
 	- vajvscasc
     - acbhakdvbalv
