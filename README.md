@@ -35,27 +35,28 @@ Iris Virginica
 
 
 ![alt text](https://github.com/VCurry20/pands-project/blob/main/Irisvirginica.wildflowerorg.jpg)
-[9]
+[8]
 
 
-This an Iris native to North America, is has traditionally been used in Cherokee tribes as a medicinal plant. Used as a salve for the skin and as a treatment for liver ailments. [8]
+This an Iris native to North America, is has traditionally been used in Cherokee tribes as a medicinal plant. Used as a salve for the skin and as a treatment for liver ailments. [9]
 
 
 Iris Versicolor
 
 
 ![alt text](https://github.com/VCurry20/pands-project/blob/main/irisversicolor.wildflowerorg.jpg)
+[10]
 
-
-This is also known as the Blug Flag Iris. [10] It is also native to North America, and Eastern Canada. It is poisonous, causing illness in animals humans who have consumed it. It is also said to bring finanical gain to those who carry it.
+This is also known as the Blug Flag Iris. It is also native to North America, and Eastern Canada. It is poisonous, causing illness in animals humans who have consumed it. It is also said to bring finanical gain to those who carry it. [11]
 
 
 Iris Setosa
 
 
 ![alt text](https://github.com/VCurry20/pands-project/blob/main/Irissetosa.wildflowerorg.jpg)
+[12]
 
-This is an Iris which grows in Alaska, Maine, Canada, and parts of Asia. Although it is poisonous it has been used, when cooked,  by various Peoples throough out the World for both food and for medicinal reasons. [11]
+This is an Iris which grows in Alaska, Maine, Canada, and parts of Asia. Although it is poisonous it has been used, when cooked,  by various Peoples throough out the World for both food and for medicinal reasons. [13]
 
 
 
