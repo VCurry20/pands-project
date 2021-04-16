@@ -28,10 +28,11 @@ There are approximately 300 types of Iris, the name Iris comes from the Greek Go
 
 The Iris Fisher data set examines three different types of Iris:
 
-Iris Virginica – image
+Iris Virginica
 
 
 ![alt text](https://github.com/VCurry20/pands-project/blob/main/vitginica.usforestservice.png)
+[9]
 
 
 This an Iris native to North America, is has traditionally been used in Cherokee tribes as a medicinal plant. Used as a salve for the skin and as a treatment for liver ailments. [8]
