@@ -2,7 +2,7 @@
 <br/>
 
 ![alt text](https://github.com/VCurry20/pands-project/blob/main/johnMuirlaw.1.jpg)
-
+[0]
 <br/>
 
 ## Overview:
@@ -39,6 +39,13 @@ Iris Virginica
 
 
 This an Iris native to North America, is has traditionally been used in Cherokee tribes as a medicinal plant. Used as a salve for the skin and as a treatment for liver ailments. [8]
+
+
+Iris Versicolor
+
+
+
+This is also known as the Blug Flag Iris. [10] It is also native to North America, and Eastern Canada. It is poisonous, causing illness in animals humans who have consumed it. It is also said to bring finanical gain to those who carry it.
 
 
 
