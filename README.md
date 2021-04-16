@@ -10,10 +10,6 @@
 
 ### Overview
 
-<br/> 
-
-
-
 The purpose of this project is to research the Iris fisher Dataset.
 This is a data set that examines three species of Iris Plant – Iris Setosa, Iris Virginica, and Iris Versicolor. It outlines their Petal width and length, their Sepal width and length and the Iris Species. There are 50 Samples of each of the three species, resulting in a 150 line data set.
 
