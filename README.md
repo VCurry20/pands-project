@@ -44,8 +44,19 @@ This an Iris native to North America, is has traditionally been used in Cherokee
 Iris Versicolor
 
 
+![alt text](https://github.com/VCurry20/pands-project/blob/main/irisversicolor.rhs.jpg)
 
 This is also known as the Blug Flag Iris. [10] It is also native to North America, and Eastern Canada. It is poisonous, causing illness in animals humans who have consumed it. It is also said to bring finanical gain to those who carry it.
+
+
+Iris Setosa
+
+
+
+This is an Iris which grows in Alaska, Maine, Canada, and parts of Asia. Although it is poisonous it has been used, when cooked,  by various Peoples throough out the World for both food and for medicinal reasons. [11]
+
+
+
 
 
 
