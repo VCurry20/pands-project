@@ -31,7 +31,7 @@ The Iris Fisher data set examines three different types of Iris:
 Iris Virginica
 
 
-![alt text](https://github.com/VCurry20/pands-project/blob/main/vitginica.usforestservice.png, align="centre")
+![alt text align="centre"](https://github.com/VCurry20/pands-project/blob/main/vitginica.usforestservice.png)
 [9]
 
 
