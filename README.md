@@ -9,18 +9,17 @@
 <br/>
 
 ### Overview
-
 The purpose of this project is to research the Iris fisher Dataset.
 This is a data set that examines three species of Iris Plant – Iris Setosa, Iris Virginica, and Iris Versicolor. It outlines their Petal width and length, their Sepal width and length and the Iris Species. There are 50 Samples of each of the three species, resulting in a 150 line data set.
 
 <br/>
 
-In this project I will review the following:
+In this project I will include the following:
 > A Full data set list
 
 > An Overview of the Data and what it represents
 
-> I will provide graphys that map this data
+> I will provide graphs that map this data
 
 > Provide an over view of other research material 
 
@@ -56,6 +55,7 @@ Iris Setosa
 [12]
 
 This is an Iris which grows in Alaska, Maine, Canada, and parts of Asia. Although it is poisonous it has been used, when cooked,  by various Peoples throough out the World for both food and for medicinal reasons. [13]
+
 
 
 
