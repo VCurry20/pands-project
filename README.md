@@ -196,8 +196,6 @@ Name: SepalWidthCm, dtype: float64
 <td>
 <pre>
 
-
-<br/>
 The Petal Length Column only is: 
 count    150.000000
 mean       3.758667
