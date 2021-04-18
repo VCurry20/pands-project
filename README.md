@@ -78,7 +78,7 @@ Figure from Fisher's Article [14]
 We can use python to review this data set using the built in functions and modules. Firstly we will use Pandas to review the data set under various headings.
 
 We can import Fisher Iris data set directly.
-``` ruby
+```python
 from sklearn.datasets import load_iris
 
 iris = load_iris()
@@ -88,7 +88,7 @@ print(iris)
 
 We also need to add into out python script the various modules which we will be using both to review the data and then output it in graph form
 
-``` 
+```python 
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
