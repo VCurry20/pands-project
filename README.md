@@ -121,7 +121,7 @@ df.to_excel("Dataprintout.xlsx")
 
 Describe :
 
-```
+``` python
 The full breakdown is: 
                 Id  SepalLengthCm  SepalWidthCm  PetalLengthCm  PetalWidthCm
 count  150.000000     150.000000    150.000000     150.000000    150.000000
@@ -134,5 +134,34 @@ min      1.000000       4.300000      2.000000       1.000000      0.100000
 max    150.000000       7.900000      4.400000       6.900000      2.500000
 
 ```
+<table>
+<tr>
+<th>Json 1</th>
+<th>Markdown</th>
+</tr>
+<tr>
+<td>
+<pre>
+{
+  "id": 1,
+  "username": "joe",
+  "email": "joe@example.com",
+  "order_id": "3544fc0"
+}
+</pre>
+</td>
+<td>
 
+```json
+{
+  "id": 5,
+  "username": "mary",
+  "email": "mary@example.com",
+  "order_id": "f7177da"
+}
+```
+
+</td>
+</tr>
+</table>
 
