@@ -78,6 +78,7 @@ Figure from Fisher's Article [14]
 We can use python to review this data set using the built in functions and modules. Firstly we will use Pandas to review the data set under various headings.
 
 We can import Fisher Iris data set directly.
+
 ```python
 from sklearn.datasets import load_iris
 
@@ -96,6 +97,11 @@ import seaborn as sns
 
 ```
 
+
+Overview of the information
+Using python we can break down the file and them analyis the various components of it
+
+File - [plottask.py](https://github.com/VCurry20/-pands-problem-sheet/blob/main/plotTask.png)
 
 
 
