@@ -67,7 +67,8 @@ Fisher's Iris Dataset
 This data was compiled by Sir Ronald Aylmer Fisher and Dr Edgar Anderson. It was published in 1936 in a report titled "The use of Multiple Measurements in Taxonimic Problems". While Dr Anderson was a botanist and collected the majority of the measurements, Sir Fisher was a statistician and geneticist. In this report Fisher "developed and evaluated a linear function to differentiate Iris species based on the morphology of their flowers". The data collected was used to form graphs which outlined the differences between the plants - when plotted the graphs differenciated between the species with little overlap except between the Iris Versicolor and the Iris Virginica. This overlap occurs when the data is used in cluster analysis.  [1][14][15]
 
 
-
+![alt text](https://github.com/VCurry20/pands-project/blob/main/towardsdatascience2.jpg)
+Figure from Fisher's Article [14]
 
 
 
