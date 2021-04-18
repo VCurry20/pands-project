@@ -142,9 +142,9 @@ max    150.000000       7.900000      4.400000       6.900000      2.500000
 <tr>
 <td>
 <pre>
-{
-  The Sepal Length Column only is: 
- count    150.000000
+
+The Sepal Length Column only is: 
+count    150.000000
 mean       5.843333
 std        0.828066
 min        4.300000
@@ -153,15 +153,15 @@ min        4.300000
 75%        6.400000
 max        7.900000
 Name: SepalLengthCm, dtype: float64
-}
+
 </pre>
 </td>
 <td>
 
 ``` 
-{
- The Sepal Width Column only is: 
- count    150.000000
+
+The Sepal Width Column only is: 
+count    150.000000
 mean       3.054000
 std        0.433594
 min        2.000000
@@ -170,7 +170,7 @@ min        2.000000
 75%        3.300000
 max        4.400000
 Name: SepalWidthCm, dtype: float64
-}
+
 ```
 
 </td>
