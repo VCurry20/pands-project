@@ -90,18 +90,45 @@ print(iris)
 We also need to add into out python script the various modules which we will be using both to review the data and then output it in graph form
 
 ```python 
-import pandas as pd
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
 ```
+Module Explainer:
+> Numpy:
+> Pandas:
+> Matplotlib.pyplot
+> Seaborn:
 
 
 Overview of the information
 Using python we can break down the file and them analyis the various components of it
 
-File - [plottask.py](https://github.com/VCurry20/-pands-problem-sheet/blob/main/plotTask.png)
+> File - [Analysis1.py](https://github.com/VCurry20/pands-project/blob/main/Analysis1.py)
 
+In this file we open the Pandas and the Numpy modules and use them to review the data in various ways. 
+Firstly we open the file containing the Fishers Dataset, from this we set this file as a variable. This allows for us to change the file name without having to alter the code. 
 
+Once this is complete we can start to analyise the data
+
+We can print the data out to another file - and another file type:
+
+```python 
+df.to_excel("Dataprintout.xlsx") 
+```
+
+![alt text](https://github.com/VCurry20/pands-project/blob/main/df.describeinclAll.jpg)
+describe all
+
+![alt text](https://github.com/VCurry20/pands-project/blob/main/df.describe.jpg)
+describe
+
+breakdown by column
+
+![alt text](https://github.com/VCurry20/pands-project/blob/main/df.describe.Sepallength.jpg) ![alt text](https://github.com/VCurry20/pands-project/blob/main/df.describe.SepalWidth.JPG)
+![alt text](https://github.com/VCurry20/pands-project/blob/main/df.describe.Petalwidth.JPG) ![alt text](https://github.com/VCurry20/pands-project/blob/main/df.describe.Petallength.JPG)
+
+rhn anvacp piNSC Pskcn
 
