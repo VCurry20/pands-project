@@ -86,7 +86,15 @@ print(iris)
 
 ```
 
+We also need to add into out python script the various modules which we will be using both to review the data and then output it in graph form
 
+``` ruby
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+```
 
 
 
