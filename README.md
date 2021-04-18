@@ -143,6 +143,7 @@ max    150.000000       7.900000      4.400000       6.900000      2.500000
 <td>
 <pre>
 
+
 The Sepal Length Column only is: 
 count    150.000000
 mean       5.843333
@@ -157,6 +158,7 @@ Name: SepalLengthCm, dtype: float64
 </pre>
 </td>
 <td>
+
 ``` 
 The Sepal Width Column only is: 
 count    150.000000
