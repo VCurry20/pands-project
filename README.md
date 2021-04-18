@@ -159,7 +159,6 @@ Name: SepalLengthCm, dtype: float64
 <td>
 
 ``` 
-
 The Sepal Width Column only is: 
 count    150.000000
 mean       3.054000
