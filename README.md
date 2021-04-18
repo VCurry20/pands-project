@@ -127,8 +127,9 @@ describe
 
 breakdown by column
 
-![alt text](https://github.com/VCurry20/pands-project/blob/main/df.describe.Sepallength.jpg) ![alt text](https://github.com/VCurry20/pands-project/blob/main/df.describe.SepalWidth.JPG)
-![alt text](https://github.com/VCurry20/pands-project/blob/main/df.describe.Petalwidth.JPG) ![alt text](https://github.com/VCurry20/pands-project/blob/main/df.describe.Petallength.JPG)
+![alt text](https://github.com/VCurry20/pands-project/blob/main/df.describe.Sepallength.jpg) |![alt text](https://github.com/VCurry20/pands-project/blob/main/df.describe.SepalWidth.JPG)
+--- | ---
+![alt text](https://github.com/VCurry20/pands-project/blob/main/df.describe.Petalwidth.JPG) | ![alt text](https://github.com/VCurry20/pands-project/blob/main/df.describe.Petallength.JPG)
 
 rhn anvacp piNSC Pskcn
 
