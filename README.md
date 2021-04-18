@@ -77,5 +77,17 @@ Figure from Fisher's Article [14]
 ### Data Review
 We can use python to review this data set using the built in functions and modules. Firstly we will use Pandas to review the data set under various headings.
 
+We can import Fisher Iris data set directly.
+``` ruby
+from sklearn.datasets import load_iris
+
+iris = load_iris()
+print(iris)
+
+```
+
+
+
+
 
 
