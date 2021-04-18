@@ -189,16 +189,17 @@ Name: SepalWidthCm, dtype: float64
 
 <table>
 <tr>
-<th>Sepal Length</th>
-<th>Sepal Width</th>
+<th>Petal Length</th>
+<th>Petal Width</th>
 </tr>
 <tr>
 <td>
 <pre>
 
 
+
 The Petal Length Column only is: 
- count    150.000000
+count    150.000000
 mean       3.758667
 std        1.764420
 min        1.000000
@@ -214,7 +215,7 @@ Name: PetalLengthCm, dtype: float64
 
 ``` 
 The Petal Width Column only is: 
- count    150.000000
+count    150.000000
 mean       1.198667
 std        0.763161
 min        0.100000
