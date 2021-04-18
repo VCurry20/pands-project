@@ -119,17 +119,20 @@ We can print the data out to another file - and another file type:
 df.to_excel("Dataprintout.xlsx") 
 ```
 
-![alt text](https://github.com/VCurry20/pands-project/blob/main/df.describeinclAll.jpg)
-describe all
+Describe :
 
-![alt text](https://github.com/VCurry20/pands-project/blob/main/df.describe.jpg)
-describe
+```
+The full breakdown is: 
+                Id  SepalLengthCm  SepalWidthCm  PetalLengthCm  PetalWidthCm
+count  150.000000     150.000000    150.000000     150.000000    150.000000
+mean    75.500000       5.843333      3.054000       3.758667      1.198667
+std     43.445368       0.828066      0.433594       1.764420      0.763161
+min      1.000000       4.300000      2.000000       1.000000      0.100000
+25%     38.250000       5.100000      2.800000       1.600000      0.300000
+50%     75.500000       5.800000      3.000000       4.350000      1.300000
+75%    112.750000       6.400000      3.300000       5.100000      1.800000
+max    150.000000       7.900000      4.400000       6.900000      2.500000
 
-breakdown by column
+```
 
-![alt text](https://github.com/VCurry20/pands-project/blob/main/df.describe.Sepallength.jpg) |![alt text](https://github.com/VCurry20/pands-project/blob/main/df.describe.SepalWidth.JPG)
---- | ---
-![alt text](https://github.com/VCurry20/pands-project/blob/main/df.describe.Petalwidth.JPG) | ![alt text](https://github.com/VCurry20/pands-project/blob/main/df.describe.Petallength.JPG)
-
-rhn anvacp piNSC Pskcn
 
