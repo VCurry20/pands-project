@@ -1,4 +1,6 @@
 # pands-project
+Author: Veronica Curry
+ID: G00074924
 
 ## Fisher's Iris Data Set
 
@@ -9,7 +11,7 @@
 <br/>
 
 ### Overview
-The purpose of this project is to research Fisher's Iris Dataset and to show how python can be used to investigate this dataset and output the results to graphs.
+The purpose of this project is to research Fisher's Iris Dataset and to show how python can be used to investigate datasets and output the results to graphs.
 This is a dataset that examines three species of Iris Plant – Iris Setosa, Iris Virginica, and Iris Versicolor. It outlines their petal width and length and their sepal width and length. There are 50 samples of each of the three species, resulting in a 150 line data set.
 
 <br/>
