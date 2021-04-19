@@ -1,6 +1,9 @@
 # pands-project
-Author: Veronica Curry
-ID: G00074924
+
+Author Veronica Curry
+
+Student ID: G00074924
+
 
 ## Fisher's Iris Data Set
 
