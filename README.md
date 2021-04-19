@@ -21,13 +21,13 @@ This is a dataset that examines three species of Iris Plant – Iris Setosa, Iri
 
 In this project I will include the following:
 
-> A Full data set list
+> An overview of the Dataset 
 
-> An Overview of the Data and what it represents
+> A guide to python and the relevant modules
 
-> I will provide graphs that map this data
+> Display the results of python analysis of the dataset
 
-> Provide an over view of other research material 
+> Display graphs of the dataset 
 
 
 ### Fisher's Iris Dataset 
