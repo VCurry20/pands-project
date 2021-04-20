@@ -123,6 +123,8 @@ NumPy or Numerical Python is a general-purpose numerical module for python, it i
 
 Pandas is an open source module which operates in conjunction with NumPy. It is a Data Analysis module which allows the user to manipulate, clean, slice, index, and merge data. Data is stored in data frames (df). Pandas can read from and output to a wide range of data structures and formats including CSV and Excel.  [10] [11] [12] 
 
+
+
 NumPy Vs Pandas
 
 While both modules offer the user a wide range of operations there are differences which should be considered. Pandas operates on tabular data that is structured in rows where NumPy works solely on numerical data stored in arrays. Pandas which is built on NumPy and allows for easier manipulation of data at a higher level and offers easy to use data structures and tools for data analysis. Pandas has a wide range of input / output options. [13] [14]
