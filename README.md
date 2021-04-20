@@ -87,7 +87,7 @@ Figure from Fisher's Article [14]
 print ("Hello World")
 ```
 
-Python is a fourth-generation programming lanugage created by Guido Van Rossum and released in 1991. This is a high-level multipurpose language that offers an accesspoint for novice programmers to enter the field. [1] [2] 
+Python is a fourth-generation programming lanugage created by Guido Van Rossum and released in 1991. This is a high-level multipurpose language that offers an access-point for novice programmers to enter the field. [1] [2] 
 
 Python is an example of object orientated programming, it is easier to read than other languages and can achieve many of its objectives in less lines of code. It is cross – platform and there is a large online community using the language which offers a large and easily accessable database of knowledge for new users.[3] [4]
 
@@ -119,9 +119,12 @@ import seaborn as sns
 
 ```
 
-NumPy or Numerical Python is a general-purpose numerical module for python, it is the main module for scientific computing in Python. This is a numerical library, which stores data in matrices which are called Arrays. The underlying code for NumPy is written in C code or the C language which makes this a very fast module. NumPy can be used for a wide range of operations on arrays including maths, logical operations, sorting, algebra, and statistical operations. NumPy is a core module of Python which Pandas is built upon. [6] [7] [8] [9]
+NumPy or Numerical Python is a general-purpose numerical module for python, it is the main module for scientific computing in Python. This is a numerical library, which stores data in matrices which are called arrays. The underlying code for NumPy is written in C code or the C language which makes this a very fast module. NumPy can be used for a wide range of operations on arrays including maths, logical operations, sorting, algebra, and statistical operations. NumPy is a core module of Python which Pandas is built upon. [6] [7] [8] [9]
 
+Pandas is an open source module which operates in conjunction with NumPy. It is a Data Analysis module which allows the user to manipulate, clean, slice, index, and merge data. Data is stored in data frames (df). Pandas can read from and output to a wide range of data structures and formats including CSV and Excel.  [10] [11] [12] 
 
+NumPy Vs Pandas
+While both modules offer the user a wide range of operations there are differences which should be considered. Pandas operates on tabular data that is structured in rows where NumPy works solely on numerical data stored in arrays. Pandas which is built on NumPy and allows for easier manipulation of data at a higher level and offers easy to use data structures and tools for data analysis. Pandas has a wide range of input / output options. [13] [14]
 
 
 
