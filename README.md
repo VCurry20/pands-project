@@ -86,7 +86,7 @@ print ("Hello World")
 
 Python is a fourth-generation programming lanugage created by Guido Van Rossum and released in 1991. This is a high-level multipurpose language that offers an accesspoint for novice programmers to enter the field. [1] [2] 
 
-Python is an example of object orientated programming, it is easier to read than other languages and can achieve many of its objectives in less lines of code. It is cross – platform and there is a large online community using the language which offers a large database of knowledge for new users.[3] [4]
+Python is an example of object orientated programming, it is easier to read than other languages and can achieve many of its objectives in less lines of code. It is cross – platform and there is a large online community using the language which offers a large and easily accessable database of knowledge for new users.[3] [4]
 
 Python offers a wide range of plug in modules; modules are files "containing a set of functions you want to include in your application". [5] These modules allow us to "plug in" additional capabilities which we can then use to review our data. In this project we will review 4 of these modules.
 
@@ -104,13 +104,29 @@ Uses of Python:
 > AI
 
 
+### Modules Review
 
-### Data Review
+The Modules we will be using are:
+
+``` python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+```
+
+
+
+
+
+## Data Review
 We can use python to review this data set using the built in functions and modules. Firstly we will use Pandas to review the data set under various headings.
 
 We can import Fisher Iris data set directly.
 
-```python
+
+``` python
 from sklearn.datasets import load_iris
 
 iris = load_iris()
@@ -118,23 +134,8 @@ print(iris)
 
 ```
 
-We also need to add into out python script the various modules which we will be using both to review the data and then output it in graph form
 
-```python 
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-```
-Module Explainer:
-> Numpy:
-> Pandas:
-> Matplotlib.pyplot
-> Seaborn:
-
-
-Overview of the information
+### Overview of the information
 Using python we can break down the file and them analyis the various components of it
 
 > File - [Analysis1.py](https://github.com/VCurry20/pands-project/blob/main/Analysis1.py)
