@@ -1,5 +1,7 @@
 # Reviewing the Data using Pandas
 
+print ("Hello World")
+
 import pandas as pd 
 import numpy as np 
 
@@ -16,3 +18,6 @@ with open("Analysis1output.txt", "wt") as f:                                    
     print("\nThe Sepal Width Column only is: \n",df.SepalWidthCm.describe(), file=f)           # Outputs just the SepalWidthCm Column
     print("\nThe Petal Length Column only is: \n",df.PetalLengthCm.describe(), file=f)         # Outputs just the PetalLengthCm Column
     print("\nThe Petal Width Column only is: \n",df.PetalWidthCm.describe(), file=f)           # Outputs just the PetalWidthCm Column
+
+
+Species = data.groupby
