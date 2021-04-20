@@ -14,8 +14,11 @@ Student ID: G00074924
 <br/>
 
 ### Overview
-The purpose of this project is to research Fisher's Iris Dataset and to show how python can be used to investigate datasets and output the results to graphs.
+The purpose of this project is to research Fisher's Iris Dataset and to show how Python can be used to investigate datasets and output the results to graphs.
 This is a dataset that examines three species of Iris Plant – Iris Setosa, Iris Virginica, and Iris Versicolor. It outlines their petal width and length and their sepal width and length. There are 50 samples of each of the three species, resulting in a 150 line data set.
+
+
+IMPORTANCE IN DATA SCIENCE AND MACHINE LEARNING??????
 
 <br/>
 
@@ -23,15 +26,15 @@ In this project I will include the following:
 
 > An overview of the Dataset 
 
-> A guide to python and the relevant modules
+> A guide to python and modules within Python we used to review the Dataset
 
-> Display the results of python analysis of the dataset
+> Display the results of Python analysis of the Dataset
 
-> Display graphs of the dataset 
+> Display graphs of the Dataset 
 
 
 ### Fisher's Iris Dataset 
-There are approximately 300 types of Iris, the name Iris comes from the Greek Goddess Iris, who was the Goddess of the Rainbow or a messenger of the Gods.  [4] [5] The names derives from the fact that they can be found in a wide variety of colours. These are a colourful showy plant which grow in the spring or summer and can be found in a variety of different climates and locations. [3] [7]
+There are approximately 300 types of Iris globally. The name Iris comes from the Greek Goddess Iris, who was the Goddess of the Rainbow or a messenger of the Gods.  [4] [5] The names derives from the fact that Irises can be found in a wide variety of colours. These are a colourful showy plant which grow in the spring or summer and can be found in a diverse range of climates and locations. [3] [7]
 
 <br/>
 The Iris Fisher data set examines three different types of Iris:
