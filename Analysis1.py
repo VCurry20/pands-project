@@ -20,6 +20,12 @@ with open("Analysis1output.txt", "wt") as f:                                    
     print("\nThe Petal Width Column only is: \n",df.PetalWidthCm.describe(), file=f)           # Outputs just the PetalWidthCm Column
 
 
-irisData = pd.read_csv("kaggleIrisSet.csv")
 
+irisData = pd.read_csv("kaggleIrisSet.csv")
 print (irisData.head())
+
+irisGroup = irisData.groupby("Species").size()
+print (irisGroup)
+
+irisCorr = irisData.corr()
+print (irisCorr)
