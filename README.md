@@ -130,6 +130,14 @@ NumPy Vs Pandas
 While both modules offer the user a wide range of operations there are differences which should be considered. Pandas operates on tabular data that is structured in rows where NumPy works solely on numerical data stored in arrays. Pandas which is built on NumPy and allows for easier manipulation of data at a higher level and offers easy to use data structures and tools for data analysis. Pandas has a wide range of input / output options. [13] [14]
 
 
+Matplotlib is a module that offers data visualisation for Python and NumPy, it is open source and can be used to create charts including Line and bar charts. [15] [16]
+
+
+Seaborn is the next step in Data Visualisation, it offers a variety of visualisation pattern, uses less syntax and is a high-level interface. This module builds on matplotlib and works from Pandas. [17] [18] 
+
+
+In choosing between these modules it is best to consider the desired output, Matplotlib excels in more basic plotting – the traditional bars, pies, and scatterplots. Seaborn offers an accessible option for data visualisation. [19]
+
 
 ## Data Review
 We can use python to review this data set using the built in functions and modules. Firstly we will use Pandas to review the data set under various headings.
