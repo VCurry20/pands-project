@@ -18,8 +18,8 @@ df.to_excel("Dataprintout.xlsx")                    # Print out to a CSV file - 
 
 
 # Alternative Methods
-irisData = pd.read_csv("kaggleIrisSet.csv")         # Set file name as variable - use in program below
-irisGroup = irisData.groupby("Species").size()      # Set requirement to group by species and give the file output for each - print below
+
+irisGroup = df.groupby("Species").size()            # Set requirement to group by species and give the file output for each - print below
 
 
 
@@ -29,13 +29,22 @@ irisGroup = irisData.groupby("Species").size()      # Set requirement to group b
 
 with open("Analysis1output.txt", "wt") as f:                                                   # Open File "Analysis1out" as a txt file, in write txt mode
     print("\nThe full breakdown is: \n", df.describe(), file=f)                                # Breakdown of the csv - outputs a review of the numerical data
-    print("\nThis is a summary of the data: \n", df.info(), file=f)                            # Outputs a summary of the data
     print("\nThe Sepal Length Column only is: \n", df.SepalLengthCm.describe(), file=f)        # Outputs just the SepalLengthCm Column
     print("\nThe Sepal Width Column only is: \n",df.SepalWidthCm.describe(), file=f)           # Outputs just the SepalWidthCm Column
     print("\nThe Petal Length Column only is: \n",df.PetalLengthCm.describe(), file=f)         # Outputs just the PetalLengthCm Column
     print("\nThe Petal Width Column only is: \n",df.PetalWidthCm.describe(), file=f)           # Outputs just the PetalWidthCm Column
-    print("\nThe top lines of the data are as follows: \n",irisData.head(), file=f)            # Outputs the top rows of the data
-    print("\nThe Data grouped by Species is: \n",irisGroup, file=f)                            # Outputs the data grouped by Species
+    print("\nThe top lines of the data are as follows: \n", df.head(), file=f)                 # Outputs the top rows of the data
+    print("\nThe last lines of the data are as follows: \n", df.tail(), file=f)                # Outputs the last rows of the data
+    print("\nThe Data grouped by Species is: \n \n",irisGroup, file=f)                         # Outputs the data grouped by Species
+
+
+
+import io                                                                       # Code found on Stackoverflow - allows File info to be printed to Another TXT file
+buffer = io.StringIO()
+df.info(buf=buffer)
+i = buffer.getvalue()
+with open("Analysis1output.txt", "a") as f:
+    f.write("\nThis is an overview of the file information: \n{}".format(i))
+
+# https://stackoverflow.com/questions/64067424/how-to-convert-df-info-into-data-frame-df-info
     
-
-
