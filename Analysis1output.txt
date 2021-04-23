@@ -10,6 +10,9 @@ min      1.000000       4.300000      2.000000       1.000000      0.100000
 75%    112.750000       6.400000      3.300000       5.100000      1.800000
 max    150.000000       7.900000      4.400000       6.900000      2.500000
 
+This is a summary of the data: 
+ None
+
 The Sepal Length Column only is: 
  count    150.000000
 mean       5.843333
@@ -68,11 +71,3 @@ Iris-setosa        50
 Iris-versicolor    50
 Iris-virginica     50
 dtype: int64
-
-The Pairwise correlation of colums is: 
-                      Id  SepalLengthCm  SepalWidthCm  PetalLengthCm  PetalWidthCm
-Id             1.000000       0.716676     -0.397729       0.882747      0.899759
-SepalLengthCm  0.716676       1.000000     -0.109369       0.871754      0.817954
-SepalWidthCm  -0.397729      -0.109369      1.000000      -0.420516     -0.356544
-PetalLengthCm  0.882747       0.871754     -0.420516       1.000000      0.962757
-PetalWidthCm   0.899759       0.817954     -0.356544       0.962757      1.000000

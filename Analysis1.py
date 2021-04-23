@@ -25,9 +25,11 @@ irisGroup = irisData.groupby("Species").size()      # Set requirement to group b
 
 # Open file and print the following:
 # Some lines include more code / some print variables set above 
+# The following will print the output with new lines between results \n
 
 with open("Analysis1output.txt", "wt") as f:                                                   # Open File "Analysis1out" as a txt file, in write txt mode
     print("\nThe full breakdown is: \n", df.describe(), file=f)                                # Breakdown of the csv - outputs a review of the numerical data
+    print("\nThis is a summary of the data: \n", df.info(), file=f)                            # Outputs a summary of the data
     print("\nThe Sepal Length Column only is: \n", df.SepalLengthCm.describe(), file=f)        # Outputs just the SepalLengthCm Column
     print("\nThe Sepal Width Column only is: \n",df.SepalWidthCm.describe(), file=f)           # Outputs just the SepalWidthCm Column
     print("\nThe Petal Length Column only is: \n",df.PetalLengthCm.describe(), file=f)         # Outputs just the PetalLengthCm Column
