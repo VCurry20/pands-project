@@ -4,25 +4,27 @@
 
 # Reviewing the Data using Pandas
 
-print ("Hello World")
+print ("Hello World")                               # Sanity Check
 
-import pandas as pd 
-import numpy as np 
+import numpy as np                                  # Import Numpy Module
+import pandas as pd                                 # Import Pandas Module
+                            
 
-filename = 'kaggleIrisSet.csv'
-df = pd.read_csv(filename)
+filename = 'kaggleIrisSet.csv'                      # Import File
+df = pd.read_csv(filename)                          # Set variable for file - Pandas - read the CSV file
 
 
 df.to_excel("Dataprintout.xlsx")                    # Print out to a CSV file - this could also be an excel file etc
 
 
-# setting variables for printing below
-irisData = pd.read_csv("kaggleIrisSet.csv")    
-irisGroup = irisData.groupby("Species").size()
-irisCorr = irisData.corr()
+# Alternative Methods
+irisData = pd.read_csv("kaggleIrisSet.csv")         # Set file name as variable - use in program below
+irisGroup = irisData.groupby("Species").size()      # Set requirement to group by species and give the file output for each - print below
 
 
 
+# Open file and print the following:
+# Some lines include more code / some print variables set above 
 
 with open("Analysis1output.txt", "wt") as f:                                                   # Open File "Analysis1out" as a txt file, in write txt mode
     print("\nThe full breakdown is: \n", df.describe(), file=f)                                # Breakdown of the csv - outputs a review of the numerical data
@@ -32,6 +34,6 @@ with open("Analysis1output.txt", "wt") as f:                                    
     print("\nThe Petal Width Column only is: \n",df.PetalWidthCm.describe(), file=f)           # Outputs just the PetalWidthCm Column
     print("\nThe top lines of the data are as follows: \n",irisData.head(), file=f)            # Outputs the top rows of the data
     print("\nThe Data grouped by Species is: \n",irisGroup, file=f)                            # Outputs the data grouped by Species
-    print("\nThe Pairwise correlation of colums is: \n",irisCorr, file=f)                      # Outputs the data in a 
+    
 
 
