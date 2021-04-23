@@ -1,15 +1,13 @@
+# Author Veronica Curry
+# Student ID: G00074924
+# Completed: April 2021
+
 # Import and pring the Fisher Iris Data Set - inbuilt Python Data Set
 
-from sklearn.datasets import load_iris
+from sklearn.datasets import load_iris         # Importing the Dataset into Python
 
-iris = load_iris()
-print(iris)
+iris = load_iris()                             # Setting data set as a variable
+print(iris)                                    # Print Data set in Python terminal
 
-# Reference 1: https://en.wikipedia.org/wiki/Iris_flower_data_set
-
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 

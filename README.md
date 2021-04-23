@@ -148,6 +148,7 @@ We can use python to review this data set using the built in functions and modul
 
 We can import Fisher Iris data set directly.
 
+> File - [Iris.py] (https://github.com/VCurry20/pands-project/blob/main/Iris.py)
 
 ``` python
 from sklearn.datasets import load_iris

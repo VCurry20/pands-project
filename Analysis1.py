@@ -1,3 +1,7 @@
+# Author Veronica Curry
+# Student ID: G00074924
+# Completed: April 2021
+
 # Reviewing the Data using Pandas
 
 print ("Hello World")
