@@ -150,8 +150,6 @@ The Data set was downloaded from  ******* and can be found in many places on lin
 
 Further it can be imported directly into python using the following code:
 
-> File - [Iris.py] (https://github.com/VCurry20/pands-project/blob/main/Iris.py)
-
 ``` python
 from sklearn.datasets import load_iris
 
@@ -159,6 +157,8 @@ iris = load_iris()
 print(iris)
 
 ```
+
+> File - [Iris.py] (https://github.com/VCurry20/pands-project/blob/main/Iris.py)
 
 ### Overview of the information
 Using python we can break down the file and them analyis the various components of it
