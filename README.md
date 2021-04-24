@@ -144,9 +144,11 @@ In choosing between these modules it is best to consider the desired output, Mat
 
 
 ## Data Review
-We can use python to review this data set using the built in functions and modules. Firstly we will use Pandas to review the data set under various headings.
+We can use python to review this dataset using the built in functions and modules. I will outline some of these functions below and have included the output text files with this project.
 
-We can import Fisher Iris data set directly.
+The Data set was downloaded from  ******* and can be found in many places on line. 
+
+Further it can be imported directly into python using the following code:
 
 > File - [Iris.py] (https://github.com/VCurry20/pands-project/blob/main/Iris.py)
 
@@ -157,7 +159,6 @@ iris = load_iris()
 print(iris)
 
 ```
-
 
 ### Overview of the information
 Using python we can break down the file and them analyis the various components of it
