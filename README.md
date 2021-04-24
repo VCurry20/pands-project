@@ -161,7 +161,8 @@ print(iris)
 > File - [Iris.py] (https://github.com/VCurry20/pands-project/blob/main/Iris.py)
 
 ### Overview of the information
-Using python we can break down the file and them analyis the various components of it
+
+Using python we can break down the FIsher Iris Dataset and then analyise the various components of it.  
 
 > File - [Analysis1.py](https://github.com/VCurry20/pands-project/blob/main/Analysis1.py)
 
@@ -170,8 +171,9 @@ Firstly we open the file containing the Fishers Dataset, from this we set this f
 
 Once this is complete we can start to analyise the data
 
-It should also be noted that although we are using CSV files we can change this format or even directly output from the imported data set to a different file type.
-Here I have created an excel file from the CSV file we have downloaded:
+It should also be noted that although we are using a CSV file format for the Dataset we can change this format or even directly output from the imported data set to a different file type.
+
+Here I have created an excel file from the CSV file we have downloaded as an example of this process:
 
 ```python 
 df.to_excel("Dataprintout.xlsx") 
