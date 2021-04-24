@@ -170,7 +170,8 @@ Firstly we open the file containing the Fishers Dataset, from this we set this f
 
 Once this is complete we can start to analyise the data
 
-We can print the data out to another file - and another file type:
+It should also be noted that although we are using CSV files we can change this format or even directly output from the imported data set to a different file type.
+Here I have created an excel file from the CSV file we have downloaded:
 
 ```python 
 df.to_excel("Dataprintout.xlsx") 
