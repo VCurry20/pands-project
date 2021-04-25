@@ -367,9 +367,9 @@ Depending on file type and the breakout needed of this information I am also inc
 
 <table border="0">
  <tr>
-    <td><b style="font-size:20px">Iris Setosa</b></td>
-    <td><b style="font-size:20px">Iris Versicolor</b></td>
-    <td><b style="font-size:20px">Iris Virginica</b></td>
+    <td><b style="font-size:10px">Iris Setosa</b></td>
+    <td><b style="font-size:10px">Iris Versicolor</b></td>
+    <td><b style="font-size:10px">Iris Virginica</b></td>
  </tr>
  <tr>
     <td>     Id  SepalLengthCm  SepalWidthCm  PetalLengthCm  PetalWidthCm      Species
