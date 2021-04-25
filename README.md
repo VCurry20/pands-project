@@ -187,7 +187,7 @@ Using python we can break down the Fisher Iris Dataset and then analyise the var
 In these files we open the NumPy and Pandas modules and use them to review the data in various ways. 
 Firstly we open the file containing the Fishers Dataset, from this we set this file as a variable. This allows for us to change the file without having to alter the code, the code therefore can be used on various data files. This process allows for python programs to be written and used muliple times with very few changes needed.
 
-Once this is complete we can start to analyise the data
+Once this is complete we can start to analyise the data.
 
 It should also be noted that although we are using a CSV file format for the Dataset we can change this format or even directly output from the imported data set to a different file type. 
 
@@ -197,6 +197,7 @@ With this code I have created an excel file from the CSV file we have downloaded
 df.to_excel("Dataprintout.xlsx") 
 ```
 
+<br/>
 Using Python’s built in functions I have reviewed the Dataset in the following ways:
 
 
