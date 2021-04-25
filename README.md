@@ -146,7 +146,7 @@ In choosing between these modules it is best to consider the desired output, Mat
 ## Data Review
 We can use python to review this dataset using the built in functions and modules. I will outline some of these functions below and have included the output text files with this projecct.
 
-The Data set was downloaded from [Kaggle](https://www.kaggle.com/uciml/iris  and can be found in many places on line. 
+The Data set was downloaded from [Kaggle](https://www.kaggle.com/uciml/iris) and can be found in many places on line. 
 
 Further it can be imported directly into python using the following code:
 
