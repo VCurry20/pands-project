@@ -15,7 +15,7 @@ Completed: April 2021
 [0]
 <br/>
 
-### Overview
+## Overview
 The purpose of this project is to research Fisher's Iris Dataset and to show how Python can be used to investigate datasets and output the results to graphs.
 This is a dataset that examines three species of Iris Plant – Iris Setosa, Iris Virginica, and Iris Versicolor. It outlines their petal width and length and their sepal width and length. There are 50 samples of each of the three species, resulting in a 150 line data set.
 
@@ -85,7 +85,7 @@ In this report Fisher "developed and evaluated a linear function to differentiat
 ![alt text](https://github.com/VCurry20/pands-project/blob/main/towardsdatascience2.jpg)
 Figure from Fisher's Article [14]
 
-### Python
+## Python
 
 ``` python
 print ("Hello World")
@@ -143,12 +143,14 @@ Seaborn is the next step in Data Visualisation, it offers a variety of visualisa
 In choosing between these modules it is best to consider the desired output, Matplotlib excels in more basic plotting – the traditional bars, pies, and scatterplots. Seaborn offers an accessible option for data visualisation. [19]
 
 
-## Data Review
+## Analysis
+
+### Dataset
 We can use python to review this dataset using the built in functions and modules. I will outline some of these functions below and have included the output text files with this projecct.
 
-The Data set was downloaded from [Kaggle](https://www.kaggle.com/uciml/iris) and can be found in many places on line. 
+The Data set was downloaded from [Kaggle](https://www.kaggle.com/uciml/iris) and can be found widely online. I have stored this information in a CSV file titled [kaggleIrisSet](https://github.com/VCurry20/pands-project/blob/main/kaggleIrisSet.csv). 
 
-Further it can be imported directly into python using the following code:
+Further it is included in a list of datasets that can be imported directly. To complete this process this is an example of the code required:
 
 ``` python
 from sklearn.datasets import load_iris
@@ -159,6 +161,7 @@ print(iris)
 ```
 
 > File - [Iris.py](https://github.com/VCurry20/pands-project/blob/main/Iris.py)
+
 
 ### Overview of the information
 
