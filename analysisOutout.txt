@@ -55,17 +55,16 @@ max        2.500000
 Name: PetalWidthCm, dtype: float64
 
 The Setosa details are: 
- count                150
-unique                 3
-top       Iris-virginica
-freq                  50
+ count                 150
+unique                  3
+top       Iris-versicolor
+freq                   50
 Name: Species, dtype: object
 
-A Pairwise comparision of the data is: 
+The Data grouped by Species is: 
  
-                      Id  SepalLengthCm  SepalWidthCm  PetalLengthCm  PetalWidthCm
-Id             1.000000       0.716676     -0.397729       0.882747      0.899759
-SepalLengthCm  0.716676       1.000000     -0.109369       0.871754      0.817954
-SepalWidthCm  -0.397729      -0.109369      1.000000      -0.420516     -0.356544
-PetalLengthCm  0.882747       0.871754     -0.420516       1.000000      0.962757
-PetalWidthCm   0.899759       0.817954     -0.356544       0.962757      1.000000
+ Species
+Iris-setosa        50
+Iris-versicolor    50
+Iris-virginica     50
+dtype: int64

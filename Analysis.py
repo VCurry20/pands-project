@@ -2,9 +2,9 @@
 # Student ID: G00074924
 # Completed: April 2021
 
-# This file provides a summary of the information in other files. This is not an exhaustive list.
+# This file provides a summary of the information in other files. This is not an exhaustive list, please note the additional files.
 
-# Provide a Summary of each variable in a single txt file
+# Provide a summary of each variable in a single txt file
 # Save a historgram of each variable in a PNG file
 # Sets outputs of a scatterplit of each pair of variables
 
@@ -30,10 +30,11 @@ with open("analysisOutout.txt", "wt") as f:                                     
     print("\nThe Sepal Width Column only is: \n",df.SepalWidthCm.describe(), file=f)         # Outputs the SepalWidthCm Column
     print("\nThe Petal Length Column only is: \n",df.PetalLengthCm.describe(), file=f)       # Outputs the PetalLengthCm Column
     print("\nThe Petal Width Column only is: \n",df.PetalWidthCm.describe(), file=f)         # Outputs the PetalWidthCm Column
-    print("\nThe Setosa details are: \n",df.Species.describe(), file=f)                      # Outputs the Species Column
-    print("\nA Pairwise comparision of the data is: \n \n",df.corr(), file=f)                # Outputs a Pairwise comparison
+    print("\nThe Species details are: \n",df.Species.describe(), file=f)                     # Outputs the Species Column
+    print("\nThe Data grouped by Species is: \n \n",df.groupby("Species").size(), file=f)    # Outputs the data grouped by Species
 
 
+# 
 
 
 
