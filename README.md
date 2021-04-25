@@ -16,7 +16,8 @@ Completed: April 2021
 <br/>
 
 ## Overview
-The purpose of this project is to research Fisher's Iris Dataset and to show how Python can be used to investigate datasets and output the results to graphs.
+The purpose of this project is to research Fisher's Iris Dataset and to show how Python can be used to investigate datasets and output the results to graphs. I will be using Fisher's Dataset as an example of the functionality of Python and to outline ways in which the analysis carried out on this Dataset is transferable.
+
 This is a dataset that examines three species of Iris Plant – Iris Setosa, Iris Virginica, and Iris Versicolor. It outlines their petal width and length and their sepal width and length. There are 50 samples of each of the three species, resulting in a 150 line data set.
 
 This Dataset has been used for pattern analysis, statistics, and more recently for machine learning and for the teaching of data analysis. This use has outweighed its importance as information about the biology of the plants, with botanists now even questioning if Iris plants have a Sepal. [16]
@@ -337,7 +338,7 @@ Iris-virginica     50
 dtype: int64
 ```
 
-The final overview I have provided is the .info function. This provides "index dtype and columns, non-null values and memory usage" and can offer a snapshot of information prior to working with Data:
+The final overview I have provided is the .info function. This provides "index dtype and columns, non-null values and memory usage" and can offer a snapshot of information prior to working with data [3]:
 
 ``` Python
 <class 'pandas.core.frame.DataFrame'>
