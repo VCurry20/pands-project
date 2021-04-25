@@ -358,11 +358,11 @@ memory usage: 7.2+ KB
 
 Some of these processes can be incorporated into code for programming use or can be used to review data and give an overall picture of a dataset quickly and efficiently - this in turn can be used to evaulate the information provided and further steps.
 
-Depending on file type and the breakout needed of this information I am also including the following review. This shows the output of slicing the data and from this process we can easily split files - creating new datasets or savind the information to variables.
+Depending on file type and the breakout needed of this information I am also including the following review. This shows the output of slicing the data and from this process we can easily split files - creating new datasets or saving the information to variables. IN this file I print specific rows, specific colums and also the data per Iris type.
 
 > Output File - [Sliceoutput.txt](https://github.com/VCurry20/pands-project/blob/main/Sliceoutput.txt)
 
-
+Code:
 ``` Python
 with open("Sliceoutput.txt", "wt") as f:                                                                   # Open File "Sliceoutput.txt" as a txt file, in write txt mode
     print("\nIn this file I will show ways the data can be broken down. \n", file=f)                       # Breakdown of the csv - outputs a review of the numerical data
