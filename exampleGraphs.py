@@ -19,34 +19,39 @@ versicolor = df.loc[df["Species"] =="Iris-versicolor"]      # Set variable for s
 virginica = df.loc[df["Species"] =="Iris-virginica"]        # Set variable for specific Iris - Virginica
 
 
-pairplot1 = sns.pairplot(df,hue="Species")     
-# plt.show()
+sns.set_style('ticks')
+sns.set_palette("pastel")  ## changed this to change color or add in palette variable palette=palette
+#epalette = sns.color_palette("rocket")
+#sns.color_palette("hls", 10)
 
-voilinplot = sns.violinplot(x="Species", y=(df['SepalLengthCm'] + df['PetalLengthCm']), data=df)  
+#pairplot1 = sns.pairplot(df,hue="Species")     
 #plt.show()
 
-scatterplot = sns.scatterplot(x = "SepalLengthCm", y = "SepalWidthCm", data = df, hue="Species") 
+voilinplot = sns.violinplot(x="Species", y=(df['SepalLengthCm'] + df['PetalLengthCm']), data=df, palette=("husl"))
+plt.show()
+
+#scatterplot = sns.scatterplot(x = "SepalLengthCm", y = "SepalWidthCm", data = df, hue="Species") 
 #plt.show() 
 
-scatterplot = sns.scatterplot(x = "PetalLengthCm", y = "PetalWidthCm", data = df, hue="Species", legend=True) 
+#scatterplot = sns.scatterplot(x = "PetalLengthCm", y = "PetalWidthCm", data = df, hue="Species", legend=True) 
 #plt.show() 
 
-pairplot2 =sns.pairplot( df,hue='Species',palette="muted",height=3,vars=['SepalWidthCm','SepalLengthCm','PetalLengthCm','PetalWidthCm'],kind='scatter') 
+#pairplot2 =sns.pairplot( df,hue='Species',palette="muted",height=3,vars=['SepalWidthCm','SepalLengthCm','PetalLengthCm','PetalWidthCm'],kind='scatter') 
 #plt.show()
 
-jointplot = sns.jointplot(x='SepalWidthCm', y='SepalLengthCm', data=df, height=4)
+#jointplot = sns.jointplot(x='SepalWidthCm', y='SepalLengthCm', data=df, height=4)
 #plt.show()
 
-catplot = sns.catplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df, kind="swarm")  
+#catplot = sns.catplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df, kind="swarm")  
 #plt.show()
 
-lmplot1 = sns.lmplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df) 
+#lmplot1 = sns.lmplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df) 
 #plt.show()
 
-distplot1 = sns.displot(df["SepalWidthCm"], bins=16, color="red")
+#distplot1 = sns.displot(df["SepalWidthCm"], bins=16)
 #plt.show()
 
-hisplot1 = sns.histplot(df["SepalWidthCm"], bins=16, color="red")
+#hisplot1 = sns.histplot(df["SepalWidthCm"], bins=16)
 #plt.show()
 
 

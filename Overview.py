@@ -27,7 +27,7 @@ irisGroup = df.groupby("Species").size()            # Set requirement to group b
 # Some lines include more code / some print variables set above 
 # The following will print the output with new lines between results \n
 
-with open("Analysisoutput.txt", "wt") as f:                                                   # Open File "Analysisout" as a txt file, in write txt mode
+with open("overviewOutput.txt", "wt") as f:                                                    # Open File "Analysisout" as a txt file, in write txt mode
     print("\nThe full breakdown is: \n", df.describe(), file=f)                                # Breakdown of the csv - outputs a review of the numerical data
     print("\nThe Sepal Length Column only is: \n", df.SepalLengthCm.describe(), file=f)        # Outputs just the SepalLengthCm Column
     print("\nThe Sepal Width Column only is: \n",df.SepalWidthCm.describe(), file=f)           # Outputs just the SepalWidthCm Column
@@ -36,6 +36,7 @@ with open("Analysisoutput.txt", "wt") as f:                                     
     print("\nThe top lines of the data are as follows: \n", df.head(), file=f)                 # Outputs the top rows of the data
     print("\nThe last lines of the data are as follows: \n", df.tail(), file=f)                # Outputs the last rows of the data
     print("\nThe Data grouped by Species is: \n \n",irisGroup, file=f)                         # Outputs the data grouped by Species
+    print("\nA Pairwise comparision of the data is: \n \n",df.corr(), file=f)                  # Outputs a Pairwise comparison     
 
 
 
@@ -43,7 +44,7 @@ import io                                                                       
 buffer = io.StringIO()
 df.info(buf=buffer)
 i = buffer.getvalue()
-with open("Analysisoutput.txt", "a") as f:
+with open("overviewOutput.txt", "a") as f:
     f.write("\nThis is an overview of the file information: \n{}".format(i))
 
 # https://stackoverflow.com/questions/64067424/how-to-convert-df-info-into-data-frame-df-info
