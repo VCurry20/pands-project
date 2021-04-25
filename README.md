@@ -323,7 +323,7 @@ The last lines of the data are as follows:
 
 ```
 
-A more targetted approach is also possible - here we use code to print the Dataset grouped by Species and the output lets us know the amount of lined for each:
+A more targetted approach is also possible - here we use code to print the Dataset grouped by Species and the output lets us know the amount of lines for each:
 
 ``` python
 irisGroup = df.groupby("Species").size() 
@@ -356,4 +356,26 @@ dtypes: float64(4), int64(1), object(1)
 memory usage: 7.2+ KB
 ```
 
-Some of these processes can be incorporated into code for programming use or can be used to review data and give an overall picture of a dataset quickly and efficiently. 
+Some of these processes can be incorporated into code for programming use or can be used to review data and give an overall picture of a dataset quickly and efficiently - this in turn can be used to evaulate the information provided. 
+
+Depending on file type and the breakout needed of this information I am also including the following review. This shows the output of the slicing the data and from this process we can easily split files - creating new datasets.
+
+> Output File - [Sliceoutput.txt](https://github.com/VCurry20/pands-project/blob/main/Sliceoutput.txt)
+
+
+
+
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Title</b></td>
+    <td><b style="font-size:30px">Title 2</b></td>
+    <td><b style="font-size:30px">Title 3</b></td>
+ </tr>
+ <tr>
+    <td>Lorem ipsum ...</td>
+    <td>Lorem ipsum ...</td>
+    <td>Lorem ipsum ...</td>
+ </tr>
+</table>
+
+
