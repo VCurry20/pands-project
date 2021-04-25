@@ -142,6 +142,8 @@ Seaborn is the next step in Data Visualisation, it offers a variety of visualisa
 
 In choosing between these modules it is best to consider the desired output, Matplotlib excels in more basic plotting – the traditional bars, pies, and scatterplots. Seaborn offers an accessible option for data visualisation. [19]
 
+## Analysis
+
 
 ### Dataset
 We can use Python to review this dataset using the built in functions and modules. I will outline some of these functions below and have included the output text files with this projecct.
@@ -161,7 +163,7 @@ print(iris)
 > File - [Iris.py](https://github.com/VCurry20/pands-project/blob/main/Iris.py)
 
 
-## Analysis
+### Review of Dataset
 
 Using python we can break down the FIsher Iris Dataset and then analyise the various components of it.  
 
