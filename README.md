@@ -369,11 +369,11 @@ Some of these processes can be incorporated into code for programming use or can
 
 Program uses for this could be to review documents / files / datasets for missing data and with if statements allow the user to continue or allow for the document to continue to the next stage for processing. Null values could result in the document / user being declined and further actions being needed.
 
-Depending on file type and the breakout needed of this information I am also including the following review. This shows the output of slicing the data and from this process we can easily split files - creating new datasets or saving the information to variables. This file includes a print of specific rows, specific colums and also the data per Iris type. I have outputted some of these results by setting variables for each flower species.
+Depending on file type and the breakout needed from this information I am also including the following Python program output file. This shows the output of slicing the data and how from this process we can easily split files - creating new datasets or saving the information to variables. This file includes a print of specific rows, specific colums and also the data per Iris type. I have outputted some of these results by setting variables for each flower species.
 
 > Output File - [Sliceoutput.txt](https://github.com/VCurry20/pands-project/blob/main/Sliceoutput.txt)
 
-Print Code:
+File creation and print code:
 ``` Python
 with open("Sliceoutput.txt", "wt") as f:                                                                   # Open File "Sliceoutput.txt" as a txt file, in write txt mode
     print("\nIn this file I will show ways the data can be broken down. \n", file=f)                       # Breakdown of the csv - outputs a review of the numerical data
@@ -385,7 +385,7 @@ with open("Sliceoutput.txt", "wt") as f:                                        
 
 ```
 
-This is not an exhaustive list of the potential of Python and the ways it can be used for file manipulation. The important factors are that Python offers us the chance to review information quickly and efficiently, while also allowing for the application of these functions on other datasets.
+This is not an exhaustive list of the potential of Python and the ways it can be used for file manipulation. The important factors are that Python offers us the chance to review information quickly and efficiently, while also allows for the application of these functions on other datasets.
 
 
 ## Graphing
