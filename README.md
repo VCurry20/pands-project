@@ -385,7 +385,12 @@ with open("Sliceoutput.txt", "wt") as f:                                        
 
 ```
 
-This is not an exhaustive list of the potential of Python and the ways it can be used for file manipulation. The important factors are that Python offers us the chance to review information quickly and efficiently, while also allows for the application of these functions on other datasets.
+This is not an exhaustive list of the potential of Python and the ways it can be used for file manipulation. The important factors are that Python offers us the chance to review information quickly and efficiently, it also offers us the chance to write programs which can be used on different datasets.
 
 
 ## Graphing
+
+Matplotlib and Seaborn will now be used in conjunction with NumPy and Pandas to plot and print graphs of the Dataset, this offers visualisation of the data and can be used for Presentations.
+
+For an overview of the possibilities of this process please review the following: [Plotting Gallery](https://seaborn.pydata.org/examples/index.html)
+

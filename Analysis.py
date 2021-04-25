@@ -17,6 +17,8 @@ df = pd.read_csv(filename)                          # Set variable for file - Pa
 
 
 
+
+
 g = sns.pairplot(df,hue="Species")
 plt.show()
 
