@@ -38,4 +38,3 @@ with open("Sliceoutput.txt", "wt") as f:                                        
 
 
 
-
