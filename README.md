@@ -374,7 +374,7 @@ with open("Sliceoutput.txt", "wt") as f:                                        
 
 ```
 
-This is not an exahustive list of the potential of Python and the ways it can be used for file manipulation. The important factors are that Python offers us the change to review information quickly and efficiently and the code offered to review this Dataset can also be applied to others.
+This is not an exhaustive list of the potential of Python and the ways it can be used for file manipulation. The important factors are that Python offers us the chance to review information quickly and efficiently, while also allowing for the application of these functions on other datasets.
 
 
 ## Graphing
