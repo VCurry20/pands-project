@@ -143,14 +143,12 @@ Seaborn is the next step in Data Visualisation, it offers a variety of visualisa
 In choosing between these modules it is best to consider the desired output, Matplotlib excels in more basic plotting – the traditional bars, pies, and scatterplots. Seaborn offers an accessible option for data visualisation. [19]
 
 
-## Analysis
-
 ### Dataset
-We can use python to review this dataset using the built in functions and modules. I will outline some of these functions below and have included the output text files with this projecct.
+We can use Python to review this dataset using the built in functions and modules. I will outline some of these functions below and have included the output text files with this projecct.
 
-The Data set was downloaded from [Kaggle](https://www.kaggle.com/uciml/iris) and can be found widely online. I have stored this information in a CSV file titled [kaggleIrisSet](https://github.com/VCurry20/pands-project/blob/main/kaggleIrisSet.csv). 
+The Data set was downloaded from [Kaggle](https://www.kaggle.com/uciml/iris) and can be found widely online. I have stored this information in a CSV file titled [kaggleIrisSet](https://github.com/VCurry20/pands-project/blob/main/kaggleIrisSet.csv). The Dataset can be found in various formats and should include a total 150 seets / rows of iris measurements.
 
-Further it is included in a list of datasets that can be imported directly. To complete this process this is an example of the code required:
+It is also included in a list of datasets that can be imported directly into Python. To complete this process the following code is required:
 
 ``` python
 from sklearn.datasets import load_iris
@@ -163,7 +161,7 @@ print(iris)
 > File - [Iris.py](https://github.com/VCurry20/pands-project/blob/main/Iris.py)
 
 
-### Overview of the information
+## Analysis
 
 Using python we can break down the FIsher Iris Dataset and then analyise the various components of it.  
 
