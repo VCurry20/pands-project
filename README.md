@@ -298,7 +298,7 @@ Name: PetalWidthCm, dtype: float64
 </table>  
 
 
-This same process can also be used to take either the top or bottom lines of code
+This same process can also be used to take either the top or bottom lines of code using df.head() / df.tail(). 
 
 
 The top lines of the data are as follows: 
@@ -322,7 +322,7 @@ The last lines of the data are as follows:
 
 ```
 
-A more targetted approach is also possible - here we use code to print the Dataset grouped by Species:
+A more targetted approach is also possible - here we use code to print the Dataset grouped by Species and the output lets us know the amount of lined for each:
 
 ``` python
 irisGroup = df.groupby("Species").size() 
@@ -354,3 +354,5 @@ Data columns (total 6 columns):
 dtypes: float64(4), int64(1), object(1)
 memory usage: 7.2+ KB
 ```
+
+Some of these processes can be incorporated into code for programming use or can be used to review data and give an overall picture of a dataset quickly and efficiently. 
