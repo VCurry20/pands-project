@@ -162,27 +162,30 @@ with open("irisImport.txt", "wt") as f:
     print("This is the output from the imported inbuilt dataset: \n", iris, file=f)      
 ```
 
-> File - [Iris.py](https://github.com/VCurry20/pands-project/blob/main/Iris.py)
-
+> Python File - [Iris.py](https://github.com/VCurry20/pands-project/blob/main/Iris.py)
+> Output File - [irisImport.txt](https://github.com/VCurry20/pands-project/blob/main/irisImport.txt)
 
 ### Review of Dataset
 
-Using python we can break down the FIsher Iris Dataset and then analyise the various components of it. I have in
+Using python we can break down the Fisher Iris Dataset and then analyise the various components of it. I have included the Python Files as follows:
 
-> File - [Analysis1.py](https://github.com/VCurry20/pands-project/blob/main/Analysis1.py)
+> Python File - [Analysis.py](https://github.com/VCurry20/pands-project/blob/main/Analysis.py)
+> Python File - [Slicedata.py](https://github.com/VCurry20/pands-project/blob/main/Slicedata.py)
+
 
 In this file we open the Pandas and the Numpy modules and use them to review the data in various ways. 
 Firstly we open the file containing the Fishers Dataset, from this we set this file as a variable. This allows for us to change the file name without having to alter the code. 
 
 Once this is complete we can start to analyise the data
 
-It should also be noted that although we are using a CSV file format for the Dataset we can change this format or even directly output from the imported data set to a different file type.
+It should also be noted that although we are using a CSV file format for the Dataset we can change this format or even directly output from the imported data set to a different file type. 
 
-Here I have created an excel file from the CSV file we have downloaded as an example of this process:
+With this code I have created an excel file from the CSV file we have downloaded as an example of this process:
 
 ```python 
 df.to_excel("Dataprintout.xlsx") 
 ```
+
 
 Describe :
 
