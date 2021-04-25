@@ -159,6 +159,7 @@ We can use Python to review this dataset using the built in functions and module
 The Fisher's Iris Dataset was downloaded from [Kaggle](https://www.kaggle.com/uciml/iris) and can be found widely online. I have stored this information in a CSV file titled [kaggleIrisSet.csv](https://github.com/VCurry20/pands-project/blob/main/kaggleIrisSet.csv). The Dataset can be found in various formats and should include a total of 150 sets / rows of iris measurements. [1]
 
 It is also included in a list of datasets that can be imported directly into Python. To complete this process the following is an example of the code required [2]:
+(Note that I have included the code for printing for viewing in VScode and also for creating a file and printing to this file)
 
 ``` python
 from sklearn.datasets import load_iris        
