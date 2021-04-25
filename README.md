@@ -356,9 +356,9 @@ dtypes: float64(4), int64(1), object(1)
 memory usage: 7.2+ KB
 ```
 
-Some of these processes can be incorporated into code for programming use or can be used to review data and give an overall picture of a dataset quickly and efficiently - this in turn can be used to evaulate the information provided. 
+Some of these processes can be incorporated into code for programming use or can be used to review data and give an overall picture of a dataset quickly and efficiently - this in turn can be used to evaulate the information provided and further steps.
 
-Depending on file type and the breakout needed of this information I am also including the following review. This shows the output of the slicing the data and from this process we can easily split files - creating new datasets.
+Depending on file type and the breakout needed of this information I am also including the following review. This shows the output of slicing the data and from this process we can easily split files - creating new datasets or savind the information to variables.
 
 > Output File - [Sliceoutput.txt](https://github.com/VCurry20/pands-project/blob/main/Sliceoutput.txt)
 
@@ -374,4 +374,7 @@ with open("Sliceoutput.txt", "wt") as f:                                        
 
 ```
 
+This is not an exahustive list of the potential of Python and the ways it can be used for file manipulation. The important factors are that Python offers us the change to review information quickly and efficiently and the code offered to review this Dataset can also be applied to others.
 
+
+## Graphing
