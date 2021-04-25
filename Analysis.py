@@ -6,10 +6,6 @@
 # Save a historgram of each variable in a PNG file
 # Sets outputs of a scatterplit of each pair of variables
 
-## g = sns.pairplot(df,hue="Species")
-#plt.show()
-
-
 
 import numpy as np                               # Import Modules  - NumPy
 import pandas as pd                              # Import Modules  - Pandas
@@ -26,7 +22,6 @@ versicolor = df.loc[df["Species"] =="Iris-versicolor"]      # Set variable for s
 virginica = df.loc[df["Species"] =="Iris-virginica"]        # Set variable for specific Iris - Virginica
 
 
-print (df.describe().loc[setosa, "SepalLengthCm"])
 
 
 

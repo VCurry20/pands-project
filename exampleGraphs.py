@@ -2,7 +2,7 @@
 # Student ID: G00074924
 # Completed: April 2021
 
-# Outputting the data from the Fisher Iris Dataset to Graphs
+# Outputting the data from the Fisher Iris Dataset to Graphs - Examples
 
 
 import numpy as np
@@ -17,7 +17,6 @@ df = pd.read_csv(file)
 setosa = df.loc[df["Species"] =="Iris-setosa"]              # Set variable for specific Iris - Setosa
 versicolor = df.loc[df["Species"] =="Iris-versicolor"]      # Set variable for specific Iris - Versicolor
 virginica = df.loc[df["Species"] =="Iris-virginica"]        # Set variable for specific Iris - Virginica
-
 
 
 pairplot1 = sns.pairplot(df,hue="Species")     
@@ -49,3 +48,5 @@ distplot1 = sns.displot(df["SepalWidthCm"], bins=16, color="red")
 
 hisplot1 = sns.histplot(df["SepalWidthCm"], bins=16, color="red")
 #plt.show()
+
+
