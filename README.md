@@ -322,9 +322,35 @@ The last lines of the data are as follows:
 
 ```
 
-A more targetting approch of this technique would be to 
+A more targetted approach is also possible - here we use code to print the Dataset grouped by Species:
 
 ``` python
 irisGroup = df.groupby("Species").size() 
 ``` 
 
+The output is:
+``` python
+ Species
+Iris-setosa        50
+Iris-versicolor    50
+Iris-virginica     50
+dtype: int64
+```
+
+The final overview I have provided is the .info function. This provides "index dtype and columns, non-null values and memory usage" and can offer a snapshot of information prior to working with Data:
+
+``` Python
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 150 entries, 0 to 149
+Data columns (total 6 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   Id             150 non-null    int64  
+ 1   SepalLengthCm  150 non-null    float64
+ 2   SepalWidthCm   150 non-null    float64
+ 3   PetalLengthCm  150 non-null    float64
+ 4   PetalWidthCm   150 non-null    float64
+ 5   Species        150 non-null    object 
+dtypes: float64(4), int64(1), object(1)
+memory usage: 7.2+ KB
+```
