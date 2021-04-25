@@ -176,7 +176,7 @@ Using python we can break down the Fisher Iris Dataset and then analyise the var
 
 
 In these files we open the NumPy and Pandas modules and use them to review the data in various ways. 
-Firstly we open the file containing the Fishers Dataset, from this we set this file as a variable. This allows for us to change the file name without having to alter the code.
+Firstly we open the file containing the Fishers Dataset, from this we set this file as a variable. This allows for us to change the file without having to alter the code, the code therefore can be used on various data files. This process allows for python programs to be written and used muliple times with very few changes needed.
 
 Once this is complete we can start to analyise the data
 
@@ -300,16 +300,19 @@ Name: PetalWidthCm, dtype: float64
 
 This same process can also be used to take either the top or bottom lines of code
 
-``` python
+
 The top lines of the data are as follows: 
+``` python
     Id  SepalLengthCm  SepalWidthCm  PetalLengthCm  PetalWidthCm      Species
 0   1            5.1           3.5            1.4           0.2  Iris-setosa
 1   2            4.9           3.0            1.4           0.2  Iris-setosa
 2   3            4.7           3.2            1.3           0.2  Iris-setosa
 3   4            4.6           3.1            1.5           0.2  Iris-setosa
 4   5            5.0           3.6            1.4           0.2  Iris-setosa
+```
 
 The last lines of the data are as follows: 
+``` python
        Id  SepalLengthCm  SepalWidthCm  PetalLengthCm  PetalWidthCm         Species
 145  146            6.7           3.0            5.2           2.3  Iris-virginica
 146  147            6.3           2.5            5.0           1.9  Iris-virginica
