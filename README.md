@@ -18,9 +18,9 @@ Completed: April 2021
 ## Overview
 The purpose of this project is to research Fisher's Iris Dataset and to show how Python can be used to investigate datasets and output the results to graphs. I will be using Fisher's Dataset as an example of the functionality of Python and to outline ways in which the analysis carried out on this Dataset is transferable. I have included in this Respository the datasets, outputs and also the code used.
 
-This is a dataset that examines three species of Iris Plant – Iris Setosa, Iris Virginica, and Iris Versicolor. It outlines their petal width and length and their sepal width and length. There are 50 samples of each of the three species, resulting in a 150 line data set.
+The Fisher Iris Dataset examines three species of Iris Plant – Iris Setosa, Iris Virginica, and Iris Versicolor. It outlines their petal width and length, and their sepal width and length. There are 50 samples of each of the three species, resulting in a 150 line data set.
 
-This Dataset has been used for pattern analysis, statistics, and more recently for machine learning and for the teaching of data analysis. This use has outweighed its importance as information about the biology of the plants, with botanists now even questioning if Iris plants have a Sepal. [16]
+This Dataset has been used for pattern analysis, statistics, and more recently for machine learning and for the teaching of data analysis. This use has far outweighed its importance as information about the biology of the plants, with botanists now even questioning if Iris plants have a Sepal. [16]
 
 The Dataset is large enough to demonstrate the principles of using a program like python while not so large as to overwhelm a student, it has no missing data, there are 4 attributes covering three different plants and all the data is in the same format and unit type. The data set is now also present as a built-in data set which can be imported directly into Python. [17]
 
@@ -37,6 +37,7 @@ In this project I will include the following:
 
 > Display graphs of the Dataset 
 
+<br/>
 
 ### Fisher's Iris Dataset 
 There are approximately 300 types of Iris globally. The name Iris comes from the Greek Goddess Iris, who was the Goddess of the Rainbow or a messenger of the Gods.  [4] [5] The names derives from the fact that Irises can be found in a wide variety of colours. These are a colourful showy plant which grow in the spring or summer and can be found in a diverse range of climates and locations. [3] [7]
@@ -96,10 +97,12 @@ Python is a fourth-generation programming lanugage created by Guido Van Rossum a
 
 Python is an example of object orientated programming, it is easier to read than other languages and can achieve many of its objectives in less lines of code. It is cross – platform and there is a large online community using the language which offers a large and easily accessable database of knowledge for new users.[3] [4]
 
-Python offers a wide range of plug in modules; modules are files "containing a set of functions you want to include in your application". [5] These modules allow us to "plug in" additional capabilities which we can then use to review our data. In this project we will review 4 of these modules.
+Python offers a wide range of plug in modules; modules are files "containing a set of functions you want to include in your application". [5] These modules allow us to "plug in" additional capabilities which we can then use to review our data. 
+
+In this project we will review 4 of these modules, running python via VScode and will upload all relevant data to this Github account.
 
 
-Uses of Python:
+Common uses of Python:
 
 > Automation of Tasks
 
@@ -124,6 +127,8 @@ import seaborn as sns
 
 ```
 
+Analytical Modules
+
 NumPy or Numerical Python is a general-purpose numerical module for python, it is the main module for scientific computing in Python. This is a numerical library, which stores data in matrices which are called arrays. The underlying code for NumPy is written in C code or the C language which makes this a very fast module. NumPy can be used for a wide range of operations on arrays including maths, logical operations, sorting, algebra, and statistical operations. NumPy is a core module of Python which Pandas is built upon. [6] [7] [8] [9]
 
 Pandas is an open source module which operates in conjunction with NumPy. It is a Data Analysis module which allows the user to manipulate, clean, slice, index, and merge data. Data is stored in data frames (df). Pandas can read from and output to a wide range of data structures and formats including CSV and Excel.  [10] [11] [12] 
@@ -134,6 +139,8 @@ NumPy Vs Pandas
 
 While both modules offer the user a wide range of operations there are differences which should be considered. Pandas operates on tabular data that is structured in rows where NumPy works solely on numerical data stored in arrays. Pandas which is built on NumPy and allows for easier manipulation of data at a higher level and offers easy to use data structures and tools for data analysis. Pandas has a wide range of input / output options. [13] [14]
 
+
+Graphing Modules
 
 Matplotlib is a module that offers data visualisation for Python and NumPy, it is open source and can be used to create charts including Line and bar charts. [15] [16]
 
