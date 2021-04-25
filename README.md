@@ -47,7 +47,7 @@ The Iris Fisher data set examines three different types of Iris:
 Iris Virginica
 
 
-![alt text](https://github.com/VCurry20/pands-project/blob/main/Irisvirginica.wildflowerorg.jpg)
+![alt text](https://github.com/VCurry20/pands-project/blob/main/Images/Irisvirginica.wildflowerorg.jpg)
 [8]
 
 
@@ -57,7 +57,7 @@ This an Iris native to North America, is has traditionally been used in Cherokee
 Iris Versicolor
 
 
-![alt text](https://github.com/VCurry20/pands-project/blob/main/irisversicolor.wildflowerorg.jpg)
+![alt text](https://github.com/VCurry20/pands-project/blob/main/Images/irisversicolor.wildflowerorg.jpg)
 [10]
 
 This is also known as the Blug Flag Iris. It is also native to North America, and Eastern Canada. It is poisonous, causing illness in humans and animals who have consumed it. It is also said to bring finanical gain to those who carry it. [11]
@@ -66,7 +66,7 @@ This is also known as the Blug Flag Iris. It is also native to North America, an
 Iris Setosa
 
 
-![alt text](https://github.com/VCurry20/pands-project/blob/main/Irissetosa.wildflowerorg.jpg)
+![alt text](https://github.com/VCurry20/pands-project/blob/main/Images/Irissetosa.wildflowerorg.jpg)
 [12]
 
 This is an Iris which grows in Alaska, Maine, Canada, and parts of Asia. Although it is poisonous it has been used, when cooked, by various Peoples throough out the World for both food and for medicinal reasons. It is currently on a red list of endangered Japanese plants. [13] 
@@ -75,7 +75,7 @@ This is an Iris which grows in Alaska, Maine, Canada, and parts of Asia. Althoug
 <br/>
 Fisher's Iris Dataset
 
-![alt text](https://github.com/VCurry20/pands-project/blob/main/towardsdatascience.jpg)
+![alt text](https://github.com/VCurry20/pands-project/blob/main/Images/towardsdatascience.jpg)
 [14]
 
 This data was compiled by Sir Ronald Aylmer Fisher and Dr Edgar Anderson. It was published in 1936 in a report titled "The use of Multiple Measurements in Taxonimic Problems". While Dr Anderson was a botanist and collected the majority of the measurements, Sir Fisher was a statistician and geneticist. The data listed the sepal and petal length and width as shown in the above diagram.
@@ -83,7 +83,7 @@ In this report Fisher "developed and evaluated a linear function to differentiat
 
 
 
-![alt text](https://github.com/VCurry20/pands-project/blob/main/towardsdatascience2.jpg)
+![alt text](https://github.com/VCurry20/pands-project/blob/main/Images/towardsdatascience2.jpg)
 Figure from Fisher's Article [14]
 
 ## Python
