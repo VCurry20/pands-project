@@ -199,7 +199,7 @@ df.to_excel("Dataprintout.xlsx")
 
 <br/>
 Using Python’s built in functions I have reviewed the Dataset in the following ways:
-
+<br/>
 
 Describe(): This function allows the user to gain an overview of the Dataset providing the user with stastical information on the entire dataframe:
 
@@ -217,7 +217,7 @@ max    150.000000       7.900000      4.400000       6.900000      2.500000
 
 ```
 
-This process can also be used to provide stastical information about the individual Iris species:
+This code can also be used to provide stastical information about the individual Iris species:
 
 
 <table>
@@ -308,7 +308,7 @@ Name: PetalWidthCm, dtype: float64
 </table>  
 
 
-This same process can also be used to take either the top or bottom lines of code using df.head() / df.tail(). 
+This same syntax can also be used to take either the top or bottom lines of code using df.head() / df.tail(). 
 
 
 The top lines of the data are as follows: 
@@ -365,13 +365,15 @@ dtypes: float64(4), int64(1), object(1)
 memory usage: 7.2+ KB
 ```
 
-Some of these processes can be incorporated into code for programming use or can be used to review data and give an overall picture of a dataset quickly and efficiently - this in turn can be used to evaulate the information provided and further steps.
+Some of these processes can be incorporated into code for programming use or can be used individually to review data and give an overall picture of a dataset quickly and efficiently - this in turn can be used to evaulate the information provided and take further steps. 
+
+Program uses for this could be to review documents / files / datasets for missing data and with if statements allow the user to continue or allow for the document to continue to the next stage for processing. Null values could result in the document / user being declined and further actions being needed.
 
 Depending on file type and the breakout needed of this information I am also including the following review. This shows the output of slicing the data and from this process we can easily split files - creating new datasets or saving the information to variables. This file includes a print of specific rows, specific colums and also the data per Iris type. I have outputted some of these results by setting variables for each flower species.
 
 > Output File - [Sliceoutput.txt](https://github.com/VCurry20/pands-project/blob/main/Sliceoutput.txt)
 
-Code:
+Print Code:
 ``` Python
 with open("Sliceoutput.txt", "wt") as f:                                                                   # Open File "Sliceoutput.txt" as a txt file, in write txt mode
     print("\nIn this file I will show ways the data can be broken down. \n", file=f)                       # Breakdown of the csv - outputs a review of the numerical data
