@@ -358,7 +358,7 @@ memory usage: 7.2+ KB
 
 Some of these processes can be incorporated into code for programming use or can be used to review data and give an overall picture of a dataset quickly and efficiently - this in turn can be used to evaulate the information provided and further steps.
 
-Depending on file type and the breakout needed of this information I am also including the following review. This shows the output of slicing the data and from this process we can easily split files - creating new datasets or saving the information to variables. IN this file I print specific rows, specific colums and also the data per Iris type.
+Depending on file type and the breakout needed of this information I am also including the following review. This shows the output of slicing the data and from this process we can easily split files - creating new datasets or saving the information to variables. This file includes a print of specific rows, specific colums and also the data per Iris type. I have outputted some of these results by setting variables for each flower species.
 
 > Output File - [Sliceoutput.txt](https://github.com/VCurry20/pands-project/blob/main/Sliceoutput.txt)
 
