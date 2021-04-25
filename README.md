@@ -394,3 +394,13 @@ Matplotlib and Seaborn will now be used in conjunction with NumPy and Pandas to 
 
 For an overview of the possibilities of this process please review the following: [Plotting Gallery](https://seaborn.pydata.org/examples/index.html)
 
+Although there is a large number of graph options available, in this project we will review the following:
+
+> Histrogram
+
+> Scatterplot
+
+>
+
+>
+
