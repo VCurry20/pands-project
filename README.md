@@ -11,7 +11,7 @@ Completed: April 2021
 
 <br/>
 
-![alt text](https://github.com/VCurry20/pands-project/blob/main/johnMuirlaw.1.jpg)
+![alt text](https://github.com/VCurry20/pands-project/blob/main/Images/johnMuirlaw.1.jpg)
 [0]
 <br/>
 
