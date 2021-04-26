@@ -410,13 +410,13 @@ Although there is a large number of graph options available, in this project we 
 <br/>
 
 <p float="centre">
-  <img src="https://github.com/VCurry20/pands-project/blob/main/HisplotA.png" width="350" />
-  <img src="https://github.com/VCurry20/pands-project/blob/main/HisplotB.png" width="350" /> 
+  <img src="https://github.com/VCurry20/pands-project/blob/main/HisplotA.png" width="400" />
+  <img src="https://github.com/VCurry20/pands-project/blob/main/HisplotB.png" width="400" /> 
   </p>
 
 <p float="centre">
-  <img src="https://github.com/VCurry20/pands-project/blob/main/HisplotC.png" width="350" />
-  <img src="https://github.com/VCurry20/pands-project/blob/main/HisplotD.png" width="350" /> 
+  <img src="https://github.com/VCurry20/pands-project/blob/main/HisplotC.png" width="400" />
+  <img src="https://github.com/VCurry20/pands-project/blob/main/HisplotD.png" width="400" /> 
   </p>
 
 
