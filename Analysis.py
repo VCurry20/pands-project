@@ -49,6 +49,7 @@ plt.tight_layout()
 plt.savefig("Hisplot.png") 
 plt.show()
 
+
 # Varients of Histogram 
 sns.histplot( data=df, x="SepalLengthCm", legend=True, kde=True, hue="Species", multiple="stack")
 plt.tight_layout() 

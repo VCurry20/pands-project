@@ -390,7 +390,7 @@ This is not an exhaustive list of the potential of Python and the ways it can be
 
 ## Graphing
 
-Matplotlib and Seaborn will now be used in conjunction with NumPy and Pandas to plot and print graphs of the Dataset, this offers visualisation of the data and can be used for Presentations.
+Matplotlib and Seaborn will now be used in conjunction with NumPy and Pandas to plot and print graphs of the Dataset, this offers visualisation of the data and can be used for analysis and also for presentating findings.
 
 For an overview of the possibilities of this process please review the following: [Plotting Gallery](https://seaborn.pydata.org/examples/index.html)
 
@@ -404,8 +404,12 @@ Although there is a large number of graph options available, in this project we 
 <br/>
 
 
+### Histogram
 
 ![alt text](https://github.com/VCurry20/pands-project/blob/main/Hisplot.png)
+
+In the image above you can see a classic example of a histogram - offering a represention of one varible ( Sepal Width). However with 
+
 
 <br/>
 
