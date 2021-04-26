@@ -427,10 +427,10 @@ The following are four examples how data, the Fishers Iris dataset, can be viewe
   </p>
 
 
-These graphs offer contracts between the variables across the species, and give a clearer understanding to the user. In histogram 1 and 3 we also have a KDE line which also offers a clearer respresentation of the movement of the variable across the axises. Shading and opaqueness as shown in histogram 2 provide an clear visualisation of the points where the Sepal length in this case overlap between the species. Finally in histogram 4 we can see a more solid representation of the data and a step away from the traditional historgram above. 
+These graphs offer contrasts between the variables across the species, and give a clearer understanding to the user. In histogram 1 and 3 we also have a KDE line which also offers a clearer respresentation of the movement of the variable across the axises. Shading and opaqueness as shown in histogram 2 provide an clear visualisation of the points where the Sepal length in this case overlap between the species. Finally in histogram 4 we can see a more solid representation of the data and a step away from the traditional historgram above. 
 
 
-Histogram Code
+Histrogram Code
 ``` Python 
 
 # Varients of Histogram 
@@ -459,17 +459,16 @@ plt.show()                                                                      
 ```
 
 
+### Histogram
 
-
-
-
-<br/>
 <br/>
 
 ![alt text](https://github.com/VCurry20/pands-project/blob/main/Scatterplots.png)
 
 
 "A scatter plot is a type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data. If the points are coded, one additional variable can be displayed. " [17]
+
+The above is an image of 4 scatterplots outputted to one PGN file which compare the 4 variables across the Species and offers the viewer macro view of the varients.
 
 ``` python
 

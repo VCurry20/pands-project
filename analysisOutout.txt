@@ -55,10 +55,10 @@ max        2.500000
 Name: PetalWidthCm, dtype: float64
 
 The Species details are: 
- count                 150
-unique                  3
-top       Iris-versicolor
-freq                   50
+ count             150
+unique              3
+top       Iris-setosa
+freq               50
 Name: Species, dtype: object
 
 The Data grouped by Species is: 

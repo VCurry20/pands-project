@@ -34,20 +34,22 @@ with open("analysisOutout.txt", "wt") as f:                                     
     print("\nThe Data grouped by Species is: \n \n",df.groupby("Species").size(), file=f)    # Outputs the data grouped by Species
 
 
-sns.set_palette("bright")                                                 # set seaborn color palette
-sns.set_style("ticks", {"xtick.major.size": 8, "ytick.major.size": 8})    # Set background style
-sns.color_palette("husl", 9)                                              # Set Color Palette
-
-
 
 
 # Histogram of Variable
 
 # Simple Histogram Output
-sns.histplot(df["SepalWidthCm"], bins=16, palette=("husl"))   # Seaborn create histogram - Iris File dataframe variable - "Sepal Width" - 16 bins - Color Palette    
+sns.histplot(df["SepalWidthCm"], bins=16, palette=("hls"))   # Seaborn create histogram - Iris File dataframe variable - "Sepal Width" - 16 bins - Color Palette    
 plt.tight_layout()                                            # Crop output
 plt.savefig("Hisplot.png")                                    # Create file and save to file "Histplot"
 plt.show()                                                    # Show plot
+
+
+
+
+sns.set_palette("bright")                                                 # set seaborn color palette
+sns.set_style("ticks", {"xtick.major.size": 8, "ytick.major.size": 8})    # Set background style
+sns.color_palette("husl", 9)                                              # Set Color Palette
 
 
 # Varients of Histogram 
