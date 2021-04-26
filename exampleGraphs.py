@@ -62,14 +62,14 @@ sns.catplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df, kind="sw
 plt.tight_layout()                                                                                       # Crop output
 #  plt.show()                                                                                            # Show plot 
 plt.savefig("catplot.png")                                                                               # Create file and save to file "Catplot"
-
+plt.show() 
 
 
 # Implot
 sns.lmplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df, palette=("husl"))   # Seaborn - jointplot ( set X axis / set Y axis ), Data from Iris File, Palette (color code)
 #plt.show()                                                                                # Show plot 
 plt.savefig("Implot.png")                                                                  # Create file and save to file "implot"
-
+ 
 
 sns.lmplot(x="PetalWidthCm", y="PetalLengthCm",col="Species", data=df, palette=("husl"))   # Seaborn - jointplot ( set X axis / set Y axis ), Data from Iris File, Palette (color code)
 #plt.show()                                                                                # Show plot 
