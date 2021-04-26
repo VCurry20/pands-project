@@ -562,6 +562,7 @@ Seaborn Links:
 [6] Seaborn Org, seaborn.scatterplot , (2012 – 2020), https://seaborn.pydata.org/generated/seaborn.scatterplot.html?highlight=scatterplot#seaborn.scatterplot 
 [7] Seaborn Org, seaborn.implot , (2012 – 2020), https://seaborn.pydata.org/generated/seaborn.lmplot.html 
 [8] Seaborn Org, Building structured multi-plots grids, (2012 – 2020), https://seaborn.pydata.org/tutorial/axis_grids.html
+[9] Seaborn Org, Seaborn Histplot, (2012 – 2020), https://seaborn.pydata.org/generated/seaborn.histplot.html
 
 YouTube:
 Derek Banas, Matplotlib Tutorial, (August 22nd, 2020) https://www.youtube.com/watch?v=wB9C0Mz9gSo
