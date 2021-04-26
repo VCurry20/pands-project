@@ -55,26 +55,25 @@ sns.jointplot(x='PetalLengthCm', y='SepalLengthCm', data=df, height=6, palette=(
 plt.savefig("Jointplot2.png")                                                                         # Create file and save to file "Jointplot"
 
 
+
+
 # Cat plot                                                              
-
-sns.catplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df, kind="swarm", palette=("husl"))  
-plt.tight_layout()
-plt.show()
-plt.savefig("catplot.png") 
-                                                            
-#sns.catplot(x="PetalWidthCm", y="PetalLengthCm",col="Species", data=df, kind="swarm", palette=("husl"), si)  
-#plt.tight_layout()
-#plt.show()
-#plt.savefig("catplot2.png") 
-
-sns.lmplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df, palette=("husl")) 
-#plt.show()
-plt.savefig("Implot.png") 
+sns.catplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df, kind="swarm", palette=("husl"))  # Seaborn - jointplot ( set X axis / set Y axis ), Data from Iris File, Palette (color code), kind - swarp data points
+plt.tight_layout()                                                                                       # Crop output
+plt.show()                                                                                               # Show plot 
+plt.savefig("catplot.png")                                                                               # Create file and save to file "Catplot"
 
 
-sns.lmplot(x="PetalWidthCm", y="PetalLengthCm",col="Species", data=df, palette=("husl")) 
-#plt.show()
-plt.savefig("Implot2.png") 
+
+# Implot
+sns.lmplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df, palette=("husl"), legend=True)   # Seaborn - jointplot ( set X axis / set Y axis ), Data from Iris File, Palette (color code)
+#plt.show()                                                                                # Show plot 
+plt.savefig("Implot.png")                                                                  # Create file and save to file "implot"
+
+
+sns.lmplot(x="PetalWidthCm", y="PetalLengthCm",col="Species", data=df, palette=("husl"), legend=True)   # Seaborn - jointplot ( set X axis / set Y axis ), Data from Iris File, Palette (color code)
+#plt.show()                                                                                # Show plot 
+plt.savefig("Implot2.png")                                                                 # Create file and save to file "implot2"
 
 
 sns.displot(df["SepalWidthCm"], bins=16, palette=("husl"))
