@@ -13,6 +13,7 @@ import pandas as pd                                         # Import Pandas Modu
 filename = 'kaggleIrisSet.csv'                              # Import File
 df = pd.read_csv(filename)                                  # Set variable for file - Pandas - read the CSV file
 
+
 # print(df[10:21])                                          # Print lines 10 - 20
 
 specific_data=df[["Id", "Species"]]                         # Set variable for specific data

@@ -13,10 +13,6 @@ import seaborn as sns                                       # Import Seaborn
 file = 'kaggleIrisSet.csv'                                  # Set the CSV as a variable                          
 df = pd.read_csv(file)                                      # create a dataframe from this file - pandas read CSV
 
-setosa = df.loc[df["Species"] =="Iris-setosa"]              # Set variable for specific Iris - Setosa
-versicolor = df.loc[df["Species"] =="Iris-versicolor"]      # Set variable for specific Iris - Versicolor
-virginica = df.loc[df["Species"] =="Iris-virginica"]        # Set variable for specific Iris - Virginica
-
 
 sns.set_style('ticks')                                      # set seaborn background
 sns.set_palette("bright")                                   # set seaborn color palette
@@ -91,3 +87,16 @@ sns.pairplot( df,hue='Species',height=3,vars=['SepalWidthCm','SepalLengthCm','Pe
 plt.savefig("pairplot.png")                                                                                                                    # Create file and save to file "Pairplot"
 
 
+
+# Boxplot
+
+setosa = df.loc[df["Species"] =="Iris-setosa"]              # Set variable for specific Iris - Setosa
+versicolor = df.loc[df["Species"] =="Iris-versicolor"]      # Set variable for specific Iris - Versicolor
+virginica = df.loc[df["Species"] =="Iris-virginica"]        # Set variable for specific Iris - Virginica
+
+boxData = [setosa, versicolor, virginica]
+
+# print (boxData)
+
+sns.boxplot( df, orient= "h", alette=("husl"), legend=True)
+plt.show()
