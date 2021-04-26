@@ -60,7 +60,7 @@ plt.savefig("Jointplot2.png")                                                   
 # Cat plot                                                              
 sns.catplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df, kind="swarm", palette=("husl"))  # Seaborn - jointplot ( set X axis / set Y axis ), Data from Iris File, Palette (color code), kind - swarp data points
 plt.tight_layout()                                                                                       # Crop output
-plt.show()                                                                                               # Show plot 
+#  plt.show()                                                                                            # Show plot 
 plt.savefig("catplot.png")                                                                               # Create file and save to file "Catplot"
 
 
