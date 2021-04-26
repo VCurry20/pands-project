@@ -404,26 +404,20 @@ Although there is a large number of graph options available, in this project we 
 <br/>
 
 
-<p float="centre">
-  <img src="https://github.com/VCurry20/pands-project/blob/main/HisplotA.png" width="250" />
-  <img src="https://github.com/VCurry20/pands-project/blob/main/HisplotB.png" width="250" /> 
-  </p>
-
-<p float="centre">
-  <img src="https://github.com/VCurry20/pands-project/blob/main/HisplotC.png" width="250" />
-  <img src="https://github.com/VCurry20/pands-project/blob/main/HisplotD.png" width="250" /> 
-  </p>
-
-
-
 
 ![alt text](https://github.com/VCurry20/pands-project/blob/main/Hisplot.png)
 
+<br/>
 
+<p float="centre">
+  <img src="https://github.com/VCurry20/pands-project/blob/main/HisplotA.png" width="350" />
+  <img src="https://github.com/VCurry20/pands-project/blob/main/HisplotB.png" width="350" /> 
+  </p>
 
-![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotA.png) | ![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotB.png)
-
-![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotC.png) | ![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotD.png)
+<p float="centre">
+  <img src="https://github.com/VCurry20/pands-project/blob/main/HisplotC.png" width="350" />
+  <img src="https://github.com/VCurry20/pands-project/blob/main/HisplotD.png" width="350" /> 
+  </p>
 
 
 
