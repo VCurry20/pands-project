@@ -410,7 +410,7 @@ Although there is a large number of graph options available, in this project we 
 
 "A histogram is a classic visualization tool that represents the distribution of one or more variables by counting the number of observations that fall within disrete bins." [9]
 
-In the image above you can see a classic example of a histogram - offering a represention of one varible ( Sepal Width). However with option is simplistic and offers little to the creater or to the viewer.
+In the image above you can see a classic example of a histogram - offering a represention of one varible ( Sepal Width). However this option is simplistic and offers little to the creater or to the viewer.
 
 The following are four examples how data, the Fishers Iris dataset, can be viewed and compared:
 
@@ -427,7 +427,7 @@ The following are four examples how data, the Fishers Iris dataset, can be viewe
   </p>
 
 
-
+These graphs offer contracts between the variables across the species, and give a clearer understanding to the user. In histogram 1 and 3 we also have a KDE line which also offers a clearer respresentation of the movement of the variable across the axises. Shading and opaqueness as shown in histogram 2 provide an clear visualisation of the points where the Sepal length in this case overlap between the species. Finally in histogram 4 we can see a more solid representation of the data and a step away from the traditional historgram above. 
 
 
 Histogram Code
@@ -468,6 +468,8 @@ plt.show()                                                                      
 
 ![alt text](https://github.com/VCurry20/pands-project/blob/main/Scatterplots.png)
 
+
+"A scatter plot is a type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data. If the points are coded, one additional variable can be displayed. " [17]
 
 ``` python
 
@@ -685,6 +687,8 @@ https://cmdlinetips.com/2019/02/how-to-make-histogram-in-python-with-pandas-and-
 
 [16] Mathlab answers, How can I insert a title over a group of subplots? (April 26th, 2010) https://uk.mathworks.com/matlabcentral/answers/100459-how-can-i-insert-a-title-over-a-group-of-subplots 
 
+[17] Wikipedia, Scatterplot, (December 23rd, 2003) https://en.wikipedia.org/w/index.php?title=Scatter_plot&action=history 
+
 
 Seaborn Links:
 
@@ -712,5 +716,9 @@ YouTube:
 [1] Derek Banas, Matplotlib Tutorial, (August 22nd, 2020) https://www.youtube.com/watch?v=wB9C0Mz9gSo
 
 [2] Derek Banas, Seaborn Tutorial, ( September 1st, 2020) https://www.youtube.com/watch?v=6GUZXDef2U0 
+
+
+### Conclusion:
+
 
 
