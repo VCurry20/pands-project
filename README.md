@@ -429,13 +429,64 @@ The following are four examples how data, the Fishers Iris dataset, can be viewe
 
 
 
+
+Histogram Code
+``` Python 
+
+# Varients of Histogram 
+sns.histplot( data=df, x="SepalLengthCm", legend=True, kde=True, hue="Species", multiple="stack")   # Seaborn create histogram - Iris File dataframe - Set X axis, add legend, KDE Line, Map species info, stack format  
+plt.tight_layout()                                                                                  # Crop output  
+plt.savefig("HisplotA.png")                                                                         # Create file and save to file "Histplot A"          
+plt.show()                                                                                          # Show plot                       
+
+sns.histplot( data=df, x="SepalWidthCm", legend=True, hue="Species", element="poly")                # Seaborn create histogram - Iris File dataframe - Set X axis, add legend, Map species info, stack format  
+plt.tight_layout()                                                                                  # Crop output   
+plt.savefig("HisplotB.png")                                                                         # Create file and save to file "Histplot B"    
+plt.show()                                                                                          # Show plot    
+
+sns.histplot( data=df, x="PetalLengthCm", legend=True, kde=True, hue="Species", element="step",stat="density", common_norm=False) # Seaborn create histogram - Iris File dataframe - Set X axis, add legend, KDE Line, Map species info, stack format ,normalise 
+plt.tight_layout()                                                                                                                # Crop output
+plt.savefig("HisplotC.png")                                                                                                       # Create file and save to file "Histplot C"    
+plt.show()                                                                                                                        # Show plot    
+
+sns.histplot( data=df, x="PetalWidthCm", y="Species", legend=True, hue="Species")    # Seaborn create histogram - Iris File dataframe - Set X axis, Set Y axis, add legend, Map species info 
+plt.tight_layout()                                                                   # Crop output  
+plt.savefig("HisplotD.png")                                                          # Create file and save to file "Histplot C"  
+plt.show()                                                                           # Show plot
+
+
+
+```
+
+
+
+
+
+
 <br/>
 <br/>
 
 ![alt text](https://github.com/VCurry20/pands-project/blob/main/Scatterplots.png)
 
 
+``` python
 
+# Scatterplots of Variables
+plt.figure(figsize=(10,10))                                                                                              # plot figure size
+plt.subplot(2,2,1)                                                                                                       # subplot - 2 * 2 - plot 1
+sns.scatterplot(x = "SepalLengthCm", y = "SepalWidthCm", data = df, hue="Species", legend=True, palette=("husl"))        # Seaborn Scatterplot - ( set X axis / set Y axis ), Data from Iris File, Hue - Species, include a legend, Palette - set color
+plt.subplot(2,2,2)                                                                                                       # subplot - 2 * 2 - plot 2
+sns.scatterplot(x = "PetalLengthCm", y = "PetalWidthCm", data = df, hue="Species", legend=True, palette=("husl"))        # Seaborn Scatterplot - ( set X axis / set Y axis ), Data from Iris File, Hue - Species, include a legend, Palette - set colo
+plt.subplot(2,2,3)                                                                                                       # subplot - 2 * 2 - plot 3
+sns.scatterplot(x = "SepalLengthCm", y = "PetalLengthCm", data = df, hue="Species", legend=True, palette=("husl"))       # Seaborn Scatterplot - ( set X axis / set Y axis ), Data from Iris File, Hue - Species, include a legend, Palette - set colo
+plt.subplot(2,2,4)                                                                                                       # subplot - 2 * 2 - plot 4
+sns.scatterplot(x = "SepalWidthCm", y = "PetalWidthCm", data = df, hue="Species", legend=True, palette=("husl"))         # Seaborn Scatterplot - ( set X axis / set Y axis ), Data from Iris File, Hue - Species, include a legend, Palette - set colo
+plt.suptitle("Fisher's Iris Dataset", size=20)                                                                           # Set over all plot title - Size 20
+plt.tight_layout()                                                                                                       # Crop output
+#plt.show()                                                                                                              # Show plot 
+plt.savefig("Scatterplots.png")                                                                                          # Create file and save to file "Voilinplot"
+
+```
 
 
 

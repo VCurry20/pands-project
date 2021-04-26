@@ -44,32 +44,32 @@ sns.color_palette("husl", 9)                                              # Set 
 # Histogram of Variable
 
 # Simple Histogram Output
-hisplot1 = sns.histplot(df["SepalWidthCm"], bins=16, palette=("husl"))   
-plt.tight_layout()  
-plt.savefig("Hisplot.png") 
-plt.show()
+sns.histplot(df["SepalWidthCm"], bins=16, palette=("husl"))   # Seaborn create histogram - Iris File dataframe variable - "Sepal Width" - 16 bins - Color Palette    
+plt.tight_layout()                                            # Crop output
+plt.savefig("Hisplot.png")                                    # Create file and save to file "Histplot"
+plt.show()                                                    # Show plot
 
 
 # Varients of Histogram 
-sns.histplot( data=df, x="SepalLengthCm", legend=True, kde=True, hue="Species", multiple="stack")
-plt.tight_layout() 
-plt.savefig("HisplotA.png")                                                              
-plt.show()
+sns.histplot( data=df, x="SepalLengthCm", legend=True, kde=True, hue="Species", multiple="stack")   # Seaborn create histogram - Iris File dataframe - Set X axis, add legend, KDE Line, Map species info, stack format  
+plt.tight_layout()                                                                                  # Crop output  
+plt.savefig("HisplotA.png")                                                                         # Create file and save to file "Histplot A"          
+plt.show()                                                                                          # Show plot                       
 
-sns.histplot( data=df, x="SepalWidthCm", legend=True, hue="Species", element="poly")
-plt.tight_layout() 
-plt.savefig("HisplotB.png") 
-plt.show()
+sns.histplot( data=df, x="SepalWidthCm", legend=True, hue="Species", element="poly")                # Seaborn create histogram - Iris File dataframe - Set X axis, add legend, Map species info, stack format  
+plt.tight_layout()                                                                                  # Crop output   
+plt.savefig("HisplotB.png")                                                                         # Create file and save to file "Histplot B"    
+plt.show()                                                                                          # Show plot    
 
-sns.histplot( data=df, x="PetalLengthCm", legend=True, kde=True, hue="Species", element="step",stat="density", common_norm=False)
-plt.tight_layout() 
-plt.savefig("HisplotC.png") 
-plt.show()
+sns.histplot( data=df, x="PetalLengthCm", legend=True, kde=True, hue="Species", element="step",stat="density", common_norm=False) # Seaborn create histogram - Iris File dataframe - Set X axis, add legend, KDE Line, Map species info, stack format ,normalise 
+plt.tight_layout()                                                                                                                # Crop output
+plt.savefig("HisplotC.png")                                                                                                       # Create file and save to file "Histplot C"    
+plt.show()                                                                                                                        # Show plot    
 
-sns.histplot( data=df, x="PetalWidthCm", y="Species", legend=True, hue="Species")
-plt.tight_layout() 
-plt.savefig("HisplotD.png") 
-plt.show()
+sns.histplot( data=df, x="PetalWidthCm", y="Species", legend=True, hue="Species")    # Seaborn create histogram - Iris File dataframe - Set X axis, Set Y axis, add legend, Map species info 
+plt.tight_layout()                                                                   # Crop output  
+plt.savefig("HisplotD.png")                                                          # Create file and save to file "Histplot C"  
+plt.show()                                                                           # Show plot
 
 
 
