@@ -404,15 +404,22 @@ Although there is a large number of graph options available, in this project we 
 <br/>
 
 
+<p float="left">
+  <img src="https://github.com/VCurry20/pands-project/blob/main/HisplotA.png" width="100" />
+  <img src="https://github.com/VCurry20/pands-project/blob/main/HisplotB.png" width="100" /> 
+  </p>
+
+
+
 
 
 ![alt text](https://github.com/VCurry20/pands-project/blob/main/Hisplot.png)
 
 
 
-![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotA.png "title 1") | ![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotB.png "title 2")
+![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotA.png) | ![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotB.png)
 
-![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotC.png "title 3") | ![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotD.png "title 4")
+![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotC.png) | ![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotD.png)
 
 
 
