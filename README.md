@@ -406,9 +406,9 @@ However I have provided a Sample of the following graphs for you to view:
 
 > Voilin Plots - [Voilinplots.png](https://github.com/VCurry20/pands-project/blob/main/Voilinplots.png)
 
-> Output File - [Sliceoutput.txt](https://github.com/VCurry20/pands-project/blob/main/Sliceoutput.txt)
+> Joint Plots  - [Jointplot.png](https://github.com/VCurry20/pands-project/blob/main/Jointplot.png)
 
-> Output File - [Sliceoutput.txt](https://github.com/VCurry20/pands-project/blob/main/Sliceoutput.txt)
+> Joint Plot 2 - [Jointplot2.png](https://github.com/VCurry20/pands-project/blob/main/Jointplot2.png)
 
 > Output File - [Sliceoutput.txt](https://github.com/VCurry20/pands-project/blob/main/Sliceoutput.txt)
 
