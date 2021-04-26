@@ -461,3 +461,110 @@ I have also provided a Sample of the following graphs for you to view which used
 > Pair Plot  - [pairplot.txt](https://github.com/VCurry20/pands-project/blob/main/pairplot.png)
 
 
+
+
+
+## References:
+All references were accessed and correct as of April 2021
+
+### Overview:
+[0] John Muirlaws, How to draw an Irish: part 2 (No Date) https://johnmuirlaws.com/how-to-draw-an-iris-part-2/  
+[1] Research Gate, What Should we know about the famous Iris Data? (March 2013) https://www.researchgate.net/publication/237010807_What_should_we_know_about_the_famous_Iris_data 
+[2] Towards Data Science, Exploring Classifiers with Python Scikit-learn – Iris Dataset (July 13 1020) https://towardsdatascience.com/exploring-classifiers-with-python-scikit-learn-iris-dataset-2bcb490d2e1b
+[3] Wikipedia, Irish Flower Data Set,  (September 14th 2018) - https://en.wikipedia.org/wiki/Iris_flower_data_set 
+[4] U.S forest Service, The Iris Flower, (No Date) https://www.fs.fed.us/wildflowers/beauty/iris/flower.shtml 
+[5] The Spruce, 9 Top Types of Iris for the Flower Garden, ( February 3rd, 2021) https://www.thespruce.com/irises-for-flower-garden-1315808  
+[6] The Old Farmer’s Alamac, Growing Irises, (No Date) https://www.almanac.com/plant/irises
+[7] Wikipedia, Iris (Mythology), (February 2nd,2019) https://en.wikipedia.org/wiki/Iris_(mythology) 
+[8] Grow Irises for easy elegance in your garden, (September 12th, 2018)
+https://www.gardendesign.com/flowers/iris.html 
+[9] Lady Bird Johnston Wildflower Centre, Iris Virginica (No Date) https://www.wildflower.org/gallery/result.php?id_image=43626 
+[10] Wikipedia, Iris Virginica, (first created February 4th , 2011) https://en.wikipedia.org/wiki/Iris_virginica 
+[11] Lady Bird Johnston Wildflower Centre, Iris Versicolor (No Date) https://www.wildflower.org/gallery/result.php?id_image=1894 
+[12] Wikipedia, Iris Versicolor, (first created April 12th 2016) https://en.wikipedia.org/wiki/Iris_versicolor 
+[13] Lady Bird Johnston Wildflower Centre, Iris Setosa (No Date) https://www.wildflower.org/plants/result.php?id_plant=irse  
+[14] Wikipedia, Iris Setosa, (first created October 26th2017) https://en.wikipedia.org/wiki/Iris_versicolor 
+[15] Towards data science, The Iris Dataset – A little bit of History and Biology (April 25th 2020) https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5 
+[16] Centre for machine learning and intelligent systems, Iris Data set (No Date for webpage) http://archive.ics.uci.edu/ml/datasets/Iris/ 
+ 
+
+### Python:
+[1] W3 Schools, What is Python (1999 -2021) https://www.w3schools.com/python/python_intro.asp 
+[2] Computer Hope, Generation Languages (June 30th 2019) https://www.computerhope.com/jargon/num/1gl.htm#:~:text=The%20fourth%2Dgeneration%20languages%2C%20or,Python%2C%20Ruby%2C%20and%20SQL. 
+[3] Wikipedia, Python (Programming Language) (October 29th, 2001) https://en.wikipedia.org/wiki/Python_(programming_language 
+[4] YouTube, What is python? Why Python is so helpful? (Oct 23rd, 2018) https://www.youtube.com/watch?v=Y8Tko2YC5hA 
+[5] Python Modules, What is a Module? (1999 -2021)  https://www.w3schools.com/python/python_modules.asp 
+[6] Youtube, What is Numpy? (June 6th 2016) https://www.youtube.com/watch?v=Tkv45wgxlEU 
+[7] NumPy Org, What is NumPy? (Last Updated Jan 31st 2021) https://numpy.org/doc/stable/user/whatisnumpy.html 
+[8] NumPy Org, Why is NumPy so fast? (Last Updated Jan 31st 2021)  https://numpy.org/doc/stable/user/whatisnumpy.html#why-is-numpy-fast 
+[9] Towards Data Science, Top Python Libraries: NumPy and Pandas ( November 16, 2019) https://towardsdatascience.com/top-python-libraries-numpy-pandas-8299b567d955
+[10] Pandas Org, About Pandas (No Date) https://pandas.pydata.org/about/index.html
+[11] Active State, What is Pandas in Python? Everything you need to know  (No Date) https://www.activestate.com/resources/quick-reads/what-is-pandas-in-python-everything-you-need-to-know/ 
+[12] Educative, What is Pandas in Python? (No Date) https://www.educative.io/edpresso/what-is-pandas-in-python
+[13] Java T Point, Pandas Vs NumPy (2011 – 2018) https://www.javatpoint.com/pandas-vs-numpy#:~:text=The%20Pandas%20module%20mainly%20works,works%20with%20the%20numerical%20data.&text=NumPy%20library%20provides%20objects%20for,memory%20as%20compared%20to%20Pandas. 
+[14] Geeks for Geeks, Difference between Pandas vs NumPy (Oct 24th 2020) https://www.geeksforgeeks.org/difference-between-pandas-vs-numpy/ 
+[15] Matplotlib org, Introductory page (2012-2021) https://matplotlib.org/ 
+[16] Active State, What is Matplotlib in Python (No Date) https://www.activestate.com/resources/quick-reads/what-is-matplotlib-in-python-how-to-use-it-for-plotting/ 
+[17] Analytics India Magazine, Comparing Python Data Visualization Tools: Matplotlib Vs Seaborn, (July 2nd 2019) https://analyticsindiamag.com/comparing-python-data-visualization-tools-matplotlib-vs-seaborn/ 
+[18] Seaborn Org, Seaborn: Statistical Data Visualisation (2012 – 2021) https://seaborn.pydata.org/#:~:text=Seaborn%20is%20a%20Python%20data,attractive%20and%20informative%20statistical%20graphics. 
+[19] Seaborn Org, An introduction to Seaborn (2021 – 2021) https://seaborn.pydata.org/introduction.html#:~:text=Seaborn%20is%20a%20library%20for%20making%20statistical%20graphics%20in%20Python.&text=Seaborn%20helps%20you%20explore%20and,aggregation%20to%20produce%20informative%20plots. 
+
+### Analysis:
+[1] Kaggle, Iris Species, classify iris plants into three species in this classic dataset (2016) https://www.kaggle.com/uciml/iris 
+[2] Scikit Learn, Sklearn.datasets.load_iris (2007-2020) https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html 
+
+Code Review Links:
+(Please note that I reviewed a large number of sites for code – this is a list of sites which I accessed)
+[3] Pandas Org, pandas.Dataframe.info, (2008 -2021)  https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.info.html 
+[4] Geeks for Geeks, Python Basics of Pandas using Iris Dataset, (May 17th,2020) https://www.geeksforgeeks.org/python-basics-of-pandas-using-iris-dataset/ 
+[4] Pandas Org, pandas.DataFrame.describe, (2008 -2021) https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.describe.html
+[6] Pandas Org, pandas.DataFrame.groupby, (2008 -2021) https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html 
+[7] Pandas Org, pandas.DataFrame.head, (2008 -2021) https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.head.html 
+[8] Pandas Org, pandas.DataFrame.tail, (2008 -2021) https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.tail.html 
+[9] Stack Overflow, how to convert df.info() into data frame. df.info(), (2020) https://stackoverflow.com/questions/64067424/how-to-convert-df-info-into-data-frame-df-info 
+[10] Python for Beginners, Reading and Writing Files in Python, (February 5th, 2021) https://www.pythonforbeginners.com/files/reading-and-writing-files-in-python 
+[11] Kaggle, Iris Flower Data EDA, (April 2021) https://www.kaggle.com/doreamon11122000/iris-flower-dataset-eda 
+[12] Kaggle, Iris_Dataset_EDA_N, (April 2021) https://www.kaggle.com/necibecan/iris-dataset-eda-n 
+[13] Medium, Exploratory Data Analysis of IRIS Data set using Python, (May 13th 2019) https://medium.com/@avulurivenkatasaireddy/exploratory-data-analysis-of-iris-data-set-using-python-823e54110d2d 
+[14] YouTube, Pairwise Comparison Charts 2: setting up and running them (August 7th, 2014) https://www.youtube.com/watch?v=orrQFHKlocs 
+[15] Pandas Org, Indexing and selecting Data, (2008 -2021)  https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html 
+[16] Data Carpentry, Indexing, Slicing and Subsetting DataFrames in Python ( 2018-2021) https://datacarpentry.org/python-ecology-lesson/03-index-slice-subset/index.html 
+[17] Pandas Org, pandas.DataFrame.corr , (2008 -2021)  https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.corr.html 
+[18] Pandas Org, pandas.DataFrame.loc , (2008 -2021)  https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html 
+[19] Geeks for Geeks, Pandas Dataframe.loc[], (Feb 20th, 2019) https://www.geeksforgeeks.org/python-pandas-dataframe-loc/ 
+
+
+### Graphing:
+[1] Seaborn, Example Gallery, (2012 - 2021) https://seaborn.pydata.org/examples/index.html 
+[2] Amazon Aws, Using Seaborn Styles, (No date) https://s3.amazonaws.com/assets.datacamp.com/production/course_6919/slides/chapter2.pdf 
+[3] Geeks for Geeks, Plotting graph For IRIS Dataset Using Seaborn And Matplotlib, (March 4th, 2021) https://www.geeksforgeeks.org/plotting-graph-for-iris-dataset-using-seaborn-and-matplotlib/ 
+[4] Stack Overflow, create a scatter plot from a csv file with categories, (2020)    https://stackoverflow.com/questions/61668759/create-a-scatter-plot-from-a-csv-file-with-categories 
+[5] Stack Overflow, Use different colors in scatterplot for Iris dataset, (2018), https://stackoverflow.com/questions/45862223/use-different-colors-in-scatterplot-for-iris-dataset 
+[6] Kaggle, Seaborn visualization on iris data set, (2016) , https://www.kaggle.com/noelano/seaborn-visualization-on-iris-data-set 
+[7] Jake VDP, Visualisation with Seaborn, (No Date), https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html 
+[8] Kaggle, Iris Flower Dataset EDA, (April 2021) https://www.kaggle.com/doreamon11122000/iris-flower-dataset-eda 
+[9] Kaggle, Iris_Dataset_EDA_N, (April 2021) https://www.kaggle.com/necibecan/iris-dataset-eda-n 
+[10] Medium, Exploratory Data Analysis of IRIS Data Set Using Python, (May 13, 2019), https://medium.com/@avulurivenkatasaireddy/exploratory-data-analysis-of-iris-data-set-using-python-823e54110d2d 
+[11] CMD Line Tips, How To Make Histogram in Python with Pandas and Seaborn?, (February 10th, 2019)
+https://cmdlinetips.com/2019/02/how-to-make-histogram-in-python-with-pandas-and-seaborn/#:~:text=The%20Seaborn%20function%20to%20make,as%20argument%20to%20make%20histogram.&text=By%20default%2C%20the%20histogram%20from,axis%20label%20and%20its%20ranges. 
+[12] Codecademy, Seaborn Styling, Part 2: Color, (no Date) https://www.codecademy.com/articles/seaborn-design-ii#:~:text=Seaborn%20has%20six%20variations%20of,bright%20%2C%20dark%20%2C%20and%20colorblind%20.  
+[13] Matplotlib, matplotlib.pyplot.subplots (2012 – 2021) https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html 
+[14] Stack Overflow, How to make several plots on a single page using matplotlib? (2010) https://stackoverflow.com/questions/1358977/how-to-make-several-plots-on-a-single-page-using-matplotlib 
+[15] Javaer 101, seaborn violinplots: change violin color, axes names, legend (October 23rd, 2010) https://www.javaer101.com/en/article/14004962.html 
+[16] Mathlab answers, How can I insert a title over a group of subplots? (April 26th, 2010) https://uk.mathworks.com/matlabcentral/answers/100459-how-can-i-insert-a-title-over-a-group-of-subplots 
+
+Seaborn Links:
+[1] Seaborn, Example Gallery, (2012 - 2021),  https://seaborn.pydata.org/examples/index.html 
+[2] Seaborn Org, seaborn.swarmplot, (2012 – 2020), https://seaborn.pydata.org/generated/seaborn.swarmplot.html 
+[3] Seaborn Org, Choosing Color Palettes, (2012 – 2020), https://seaborn.pydata.org/tutorial/color_palettes.html 
+[4] Seaborn Org, seaborn.FacetGrid , (2012 – 2020), https://seaborn.pydata.org/generated/seaborn.FacetGrid.html 
+[5] Seaborn Org, Choosing Color Palettes, (2012 – 2020), https://seaborn.pydata.org/tutorial/color_palettes.html 
+[6] Seaborn Org, seaborn.scatterplot , (2012 – 2020), https://seaborn.pydata.org/generated/seaborn.scatterplot.html?highlight=scatterplot#seaborn.scatterplot 
+[7] Seaborn Org, seaborn.implot , (2012 – 2020), https://seaborn.pydata.org/generated/seaborn.lmplot.html 
+[8] Seaborn Org, Building structured multi-plots grids, (2012 – 2020), https://seaborn.pydata.org/tutorial/axis_grids.html
+
+YouTube:
+Derek Banas, Matplotlib Tutorial, (August 22nd, 2020) https://www.youtube.com/watch?v=wB9C0Mz9gSo
+Derek Banas, Seaborn Tutorial, ( September 1st, 2020) https://www.youtube.com/watch?v=6GUZXDef2U0 
+
+
