@@ -66,30 +66,24 @@ plt.savefig("catplot.png")                                                      
 
 
 # Implot
-sns.lmplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df, palette=("husl"), legend=True)   # Seaborn - jointplot ( set X axis / set Y axis ), Data from Iris File, Palette (color code)
+sns.lmplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df, palette=("husl"))   # Seaborn - jointplot ( set X axis / set Y axis ), Data from Iris File, Palette (color code)
 #plt.show()                                                                                # Show plot 
 plt.savefig("Implot.png")                                                                  # Create file and save to file "implot"
 
 
-sns.lmplot(x="PetalWidthCm", y="PetalLengthCm",col="Species", data=df, palette=("husl"), legend=True)   # Seaborn - jointplot ( set X axis / set Y axis ), Data from Iris File, Palette (color code)
+sns.lmplot(x="PetalWidthCm", y="PetalLengthCm",col="Species", data=df, palette=("husl"))   # Seaborn - jointplot ( set X axis / set Y axis ), Data from Iris File, Palette (color code)
 #plt.show()                                                                                # Show plot 
 plt.savefig("Implot2.png")                                                                 # Create file and save to file "implot2"
 
 
-sns.displot(df["SepalWidthCm"], bins=16, palette=("husl"))
-#plt.show()
-plt.savefig("Distplot.png") 
+sns.displot(df["SepalWidthCm"], bins=16, palette=("husl"))             # Seaborn - distrubution plot ( choose one variable, 16 bins along the axis, color palette)              
+#plt.show()                                                            # Show plot 
+plt.savefig("Distplot.png")                                            # Create file and save to file "Distplot"
 
 
-sns.pairplot( df,hue='Species',height=3,vars=['SepalWidthCm','SepalLengthCm','PetalLengthCm','PetalWidthCm'],kind='scatter', palette=("husl")) 
-#plt.show()
-plt.savefig("pairplot.png") 
-
-
-#pairplot1 = sns.pairplot(df,hue="Species", palette=("husl"), height=1.5, plot_kws={'alpha':0.6})     
-#plt.show()
-
-
+sns.pairplot( df,hue='Species',height=3,vars=['SepalWidthCm','SepalLengthCm','PetalLengthCm','PetalWidthCm'],kind='scatter', palette=("husl")) # Seaborn - distrubution plot ( choose one variable, 16 bins along the axis, color palette) 
+#plt.show()                                                                                                                                    # Show plot
+plt.savefig("pairplot.png")                                                                                                                    # Create file and save to file "Pairplot"
 
 
 hisplot1 = sns.histplot(df["SepalWidthCm"], bins=16, palette=("husl"))
