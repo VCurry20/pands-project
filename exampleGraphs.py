@@ -76,16 +76,18 @@ sns.lmplot(x="PetalWidthCm", y="PetalLengthCm",col="Species", data=df, palette=(
 plt.savefig("Implot2.png")                                                                 # Create file and save to file "implot2"
 
 
+
+
+# Distrubtion chart
 sns.displot(df["SepalWidthCm"], bins=16, palette=("husl"))             # Seaborn - distrubution plot ( choose one variable, 16 bins along the axis, color palette)              
 #plt.show()                                                            # Show plot 
 plt.savefig("Distplot.png")                                            # Create file and save to file "Distplot"
 
 
+
+# Pairplots
 sns.pairplot( df,hue='Species',height=3,vars=['SepalWidthCm','SepalLengthCm','PetalLengthCm','PetalWidthCm'],kind='scatter', palette=("husl")) # Seaborn - distrubution plot ( choose one variable, 16 bins along the axis, color palette) 
 #plt.show()                                                                                                                                    # Show plot
 plt.savefig("pairplot.png")                                                                                                                    # Create file and save to file "Pairplot"
 
 
-hisplot1 = sns.histplot(df["SepalWidthCm"], bins=16, palette=("husl"))
-#plt.show()
-plt.savefig("Hisplot.png") 

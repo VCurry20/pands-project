@@ -43,7 +43,9 @@ sns.set_style("ticks", {"xtick.major.size": 8, "ytick.major.size": 8})
 
 
 # Histogram of Variable
-
+hisplot1 = sns.histplot(df["SepalWidthCm"], bins=16, palette=("husl"))    
+#plt.show()
+plt.savefig("Hisplot.png") 
 
 
 
