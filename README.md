@@ -410,12 +410,17 @@ Although there is a large number of graph options available, in this project we 
 
 
 
+![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotA.png) | ![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotB.png)
+
+![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotC.png) | ![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotD.png)
 
 
 
 
+<br/>
+<br/>
 
-
+![alt text](https://github.com/VCurry20/pands-project/blob/main/Scatterplots.png)
 
 
 
