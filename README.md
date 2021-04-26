@@ -416,5 +416,8 @@ However I have provided a Sample of the following graphs for you to view:
 
 > Implot 2         - [implot2.png](https://github.com/VCurry20/pands-project/blob/main/Implot2.png)
 
-> Distribution Plot  - [Distplot.txt](https://github.com/VCurry20/pands-project/blob/main/Distplot.png)
+> Distribution Plot  - [distplot.txt](https://github.com/VCurry20/pands-project/blob/main/Distplot.png)
+
+> Pair Plot  - [pairplot.txt](https://github.com/VCurry20/pands-project/blob/main/pairplot.png)
+
 
