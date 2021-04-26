@@ -45,43 +45,56 @@ plt.savefig("Voilinplots.png")                                                  
 
 
 # Joint Plots
-jointplot = sns.jointplot(x='PetalWidthCm', y='SepalWidthCm', data=df, height=6, palette=("husl"), kind="reg")
+sns.jointplot(x='PetalWidthCm', y='SepalWidthCm', data=df, height=6, palette=("husl"), kind="reg")
 #plt.show()
 plt.savefig("Jointplot.png")  
 
 
-jointplot = sns.jointplot(x='PetalLengthCm', y='SepalLengthCm', data=df, height=6, palette=("husl"), kind="reg")
+sns.jointplot(x='PetalLengthCm', y='SepalLengthCm', data=df, height=6, palette=("husl"), kind="reg")
 #plt.show()
 plt.savefig("Jointplot2.png")
 
 
 
 
-catplot = sns.catplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df, kind="swarm", palette=("husl"))  
+                                                                  
+
+#sns.catplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df, kind="swarm", palette=("husl"))  
+#plt.tight_layout()
 #plt.show()
-plt.savefig("catplot.png") 
+#plt.savefig("catplot1.png") 
+
+                                                                
+sns.catplot(x="PetalWidthCm", y="PetalLengthCm",col="Species", data=df, kind="swarm", palette=("husl"))  
+plt.tight_layout()
+#plt.show()
+plt.savefig("catplot2.png") 
 
 
-lmplot1 = sns.lmplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df, palette=("husl")) 
+
+
+
+sns.lmplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df, palette=("husl")) 
 #plt.show()
 plt.savefig("Implot.png") 
 
 
-distplot1 = sns.displot(df["SepalWidthCm"], bins=16, palette=("husl"))
+sns.displot(df["SepalWidthCm"], bins=16, palette=("husl"))
 #plt.show()
 plt.savefig("Distplot.png") 
 
 
-hisplot1 = sns.histplot(df["SepalWidthCm"], bins=16, palette=("husl"))
-#plt.show()
-plt.savefig("Hisplot.png") 
-
-
-
-pairplot =sns.pairplot( df,hue='Species',height=3,vars=['SepalWidthCm','SepalLengthCm','PetalLengthCm','PetalWidthCm'],kind='scatter', palette=("husl")) 
+sns.pairplot( df,hue='Species',height=3,vars=['SepalWidthCm','SepalLengthCm','PetalLengthCm','PetalWidthCm'],kind='scatter', palette=("husl")) 
 #plt.show()
 plt.savefig("pairplot.png") 
 
 
 #pairplot1 = sns.pairplot(df,hue="Species", palette=("husl"), height=1.5, plot_kws={'alpha':0.6})     
 #plt.show()
+
+
+
+
+hisplot1 = sns.histplot(df["SepalWidthCm"], bins=16, palette=("husl"))
+#plt.show()
+plt.savefig("Hisplot.png") 
