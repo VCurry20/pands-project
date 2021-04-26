@@ -468,14 +468,23 @@ I have also provided a Sample of the following graphs for you to view which used
 All references were accessed and correct as of April 2021
 
 ### Overview:
-- [0] John Muirlaws, How to draw an Irish: part 2 (No Date) https://johnmuirlaws.com/how-to-draw-an-iris-part-2/  
-- [1] Research Gate, What Should we know about the famous Iris Data? (March 2013) https://www.researchgate.net/publication/237010807_What_should_we_know_about_the_famous_Iris_data 
-- [2] Towards Data Science, Exploring Classifiers with Python Scikit-learn – Iris Dataset (July 13 1020) https://towardsdatascience.com/exploring-classifiers-with-python-scikit-learn-iris-dataset-2bcb490d2e1b
+
+[0] John Muirlaws, How to draw an Irish: part 2 (No Date) https://johnmuirlaws.com/how-to-draw-an-iris-part-2/  
+
+[1] Research Gate, What Should we know about the famous Iris Data? (March 2013) https://www.researchgate.net/publication/237010807_What_should_we_know_about_the_famous_Iris_data 
+
+[2] Towards Data Science, Exploring Classifiers with Python Scikit-learn – Iris Dataset (July 13 1020) https://towardsdatascience.com/exploring-classifiers-with-python-scikit-learn-iris-dataset-2bcb490d2e1b
+
 [3] Wikipedia, Irish Flower Data Set,  (September 14th 2018) - https://en.wikipedia.org/wiki/Iris_flower_data_set 
+
 [4] U.S forest Service, The Iris Flower, (No Date) https://www.fs.fed.us/wildflowers/beauty/iris/flower.shtml 
+
 [5] The Spruce, 9 Top Types of Iris for the Flower Garden, ( February 3rd, 2021) https://www.thespruce.com/irises-for-flower-garden-1315808  
+
 [6] The Old Farmer’s Alamac, Growing Irises, (No Date) https://www.almanac.com/plant/irises
+
 [7] Wikipedia, Iris (Mythology), (February 2nd,2019) https://en.wikipedia.org/wiki/Iris_(mythology) 
+
 [8] Grow Irises for easy elegance in your garden, (September 12th, 2018)
 https://www.gardendesign.com/flowers/iris.html 
 [9] Lady Bird Johnston Wildflower Centre, Iris Virginica (No Date) https://www.wildflower.org/gallery/result.php?id_image=43626 
