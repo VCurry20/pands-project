@@ -410,9 +410,9 @@ Although there is a large number of graph options available, in this project we 
 
 
 
-![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotA.png) | ![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotB.png)
+![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotA.png "title 1") | ![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotB.png "title 2")
 
-![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotC.png) | ![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotD.png)
+![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotC.png "title 3") | ![alt text](https://github.com/VCurry20/pands-project/blob/main/HisplotD.png "title 4")
 
 
 
