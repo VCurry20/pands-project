@@ -45,27 +45,6 @@ plt.tight_layout()
 plt.savefig("Voilinplots.png")  
 
 
-
-# Scatterplots
-plt.figure(figsize=(10,10))
-plt.subplot(2,2,1)
-plt.title("Sepal Width Vs Sepal Length")
-scatterplot = sns.scatterplot(x = "SepalLengthCm", y = "SepalWidthCm", data = df, hue="Species", legend=True, palette=("husl")) 
-plt.subplot(2,2,2)
-plt.title("Petal Width Vs Petal Length")
-scatterplot = sns.scatterplot(x = "PetalLengthCm", y = "PetalWidthCm", data = df, hue="Species", legend=True, palette=("husl")) 
-plt.subplot(2,2,3)
-plt.title("Petal Length Vs Sepal Length")
-scatterplot = sns.scatterplot(x = "SepalLengthCm", y = "PetalLengthCm", data = df, hue="Species", legend=True, palette=("husl")) 
-plt.subplot(2,2,4)
-plt.title("Petal Width Vs Sepal Width")
-scatterplot = sns.scatterplot(x = "SepalWidthCm", y = "PetalWidthCm", data = df, hue="Species", legend=True, palette=("husl"))
-plt.suptitle("Fisher's Iris Dataset", size=20)
-plt.tight_layout()
-#plt.show()
-plt.savefig("Scatterplots.png")  
-
-
 # Joint Plot
 jointplot = sns.jointplot(x='SepalWidthCm', y='SepalLengthCm', data=df, height=4, palette=("husl"))
 #plt.show()

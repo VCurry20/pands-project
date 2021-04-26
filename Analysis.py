@@ -6,7 +6,7 @@
 
 # Provide a summary of each variable in a single txt file
 # Save a historgram of each variable in a PNG file
-# Sets outputs of a scatterplit of each pair of variables
+# Sets outputs of a scatterplot of each pair of variables
 
 
 import numpy as np                               # Import Modules  - NumPy
@@ -37,6 +37,28 @@ with open("analysisOutout.txt", "wt") as f:                                     
 # 
 
 
+
+
+
+
+
+
+
+
+# Scatterplots
+plt.figure(figsize=(10,10))
+plt.subplot(2,2,1)
+scatterplot = sns.scatterplot(x = "SepalLengthCm", y = "SepalWidthCm", data = df, hue="Species", legend=True, palette=("husl")) 
+plt.subplot(2,2,2)
+scatterplot = sns.scatterplot(x = "PetalLengthCm", y = "PetalWidthCm", data = df, hue="Species", legend=True, palette=("husl")) 
+plt.subplot(2,2,3)
+scatterplot = sns.scatterplot(x = "SepalLengthCm", y = "PetalLengthCm", data = df, hue="Species", legend=True, palette=("husl")) 
+plt.subplot(2,2,4)
+scatterplot = sns.scatterplot(x = "SepalWidthCm", y = "PetalWidthCm", data = df, hue="Species", legend=True, palette=("husl"))
+plt.suptitle("Fisher's Iris Dataset", size=20)
+plt.tight_layout()
+#plt.show()
+plt.savefig("Scatterplots.png") 
 
 
 
