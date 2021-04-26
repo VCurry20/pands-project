@@ -5,50 +5,50 @@
 # Outputting the data from the Fisher Iris Dataset to Graphs - Examples
 
 
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import matplotlib as mpl
+import numpy as np                                          # Inport NumPy
+import pandas as pd                                         # Import Pandas
+import matplotlib.pyplot as plt                             # Import Matplotlib 
+import seaborn as sns                                       # Import Seaborn
 
-file = 'kaggleIrisSet.csv'
-df = pd.read_csv(file) 
+file = 'kaggleIrisSet.csv'                                  # Set the CSV as a variable                          
+df = pd.read_csv(file)                                      # create a dataframe from this file - pandas read CSV
 
 setosa = df.loc[df["Species"] =="Iris-setosa"]              # Set variable for specific Iris - Setosa
 versicolor = df.loc[df["Species"] =="Iris-versicolor"]      # Set variable for specific Iris - Versicolor
 virginica = df.loc[df["Species"] =="Iris-virginica"]        # Set variable for specific Iris - Virginica
 
 
-sns.set_style('ticks')
-sns.set_palette("pastel")  ## changed this to change color or add in palette variable palette=palette
-#epalette = sns.color_palette("rocket")
-#sns.color_palette("hls", 10)
+sns.set_style('ticks')                                      # set seaborn background
+sns.set_palette("bright")                                   # set seaborn color palette
 
 
 # voilinplots
-plt.figure(figsize=(10,10))
-plt.subplot(2,2,1)
-plt.title("Sepal Length")
-sns.violinplot(x="Species", y='SepalLengthCm', data=df, palette=("husl"))
-plt.subplot(2,2,2)
-plt.title("Sepal Width")
-sns.violinplot(x="Species", y='SepalWidthCm', data=df, palette=("husl"))
-plt.subplot(2,2,3)
-plt.title("Petal Length")
-sns.violinplot(x="Species", y='PetalLengthCm', data=df, palette=("husl"))
-plt.subplot(2,2,4)
-plt.title("Petal Width")
-sns.violinplot(x="Species", y='PetalWidthCm', data=df, palette=("husl"))
-plt.suptitle("Fisher's Iris Dataset", size=20)
-plt.tight_layout()
-#plt.show()
-plt.savefig("Voilinplots.png")  
+plt.figure(figsize=(10,10))                                                          # plot figure size
+plt.subplot(2,2,1)                                                                   # subplot - 2 * 2 - plot 1
+plt.title("Sepal Length")                                                            # set plot title - Sepal Length
+sns.violinplot(x="Species", y='SepalLengthCm', data=df, palette=("husl"))            # Seaborn Voilin plot - ( set X axis / set Y axis ), Data from Iris File, Plot Color          
+plt.subplot(2,2,2)                                                                   # subplot - 2 * 2 - plot 2
+plt.title("Sepal Width")                                                             # set plot title - Sepal Width
+sns.violinplot(x="Species", y='SepalWidthCm', data=df, palette=("husl"))             # Seaborn Voilin plot - ( set X axis / set Y axis ), Data from Iris File, Plot Color 
+plt.subplot(2,2,3)                                                                   # subplot - 2 * 2 - plot 3
+plt.title("Petal Length")                                                            # set plot title - Petal Length
+sns.violinplot(x="Species", y='PetalLengthCm', data=df, palette=("husl"))            # Seaborn Voilin plot - ( set X axis / set Y axis ), Data from Iris File, Plot Color
+plt.subplot(2,2,4)                                                                   # subplot - 2 * 2 - plot 4
+plt.title("Petal Width")                                                             # set plot title - Petal Width
+sns.violinplot(x="Species", y='PetalWidthCm', data=df, palette=("husl"))             # Seaborn Voilin plot - ( set X axis / set Y axis ), Data from Iris File, Plot Color
+plt.suptitle("Fisher's Iris Dataset", size=20)                                       # Set over all plot title - Size 20
+plt.tight_layout()                                                                   # Crop output
+#plt.show()                                                                          # Show plot 
+plt.savefig("Voilinplots.png")                                                       # Create file and save to file "Voilinplot"
 
 
 # Joint Plot
-jointplot = sns.jointplot(x='SepalWidthCm', y='SepalLengthCm', data=df, height=4, palette=("husl"))
+jointplot = sns.jointplot(x='SepalWidthCm', y='SepalLengthCm', data=df, height=6, palette=("husl"), kind="reg")
 #plt.show()
 plt.savefig("Jointplot.png")  
+
+
+
 
 
 catplot = sns.catplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df, kind="swarm", palette=("husl"))  
