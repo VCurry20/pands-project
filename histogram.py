@@ -19,17 +19,14 @@ sns.set_palette("bright")                                   # set seaborn color 
 sns.color_palette("husl", 9)
 
 
+
 f, axes = plt.subplots(2, 2, figsize=(7, 7), sharex=True)
-plt.title("Fisher's Iris Dataset", size=20) 
-sns.histplot( df["SepalLengthCm"] , ax=axes[0, 0], legend=True, kde=True,bins=10 )
-sns.histplot( df["SepalWidthCm"] ,  ax=axes[0, 1], legend=True, kde=True, bins=8)
-sns.histplot( df["PetalLengthCm"] ,  ax=axes[1, 0], legend=True, kde=True)
-sns.histplot( df["PetalWidthCm"] ,  ax=axes[1, 1], legend=True, kde=True)
+sns.histplot( df["SepalLengthCm"] , ax=axes[0, 0],kde=True, bins=12 )
+sns.histplot( df["SepalWidthCm"] ,  ax=axes[0, 1], kde=True, bins=12)
+sns.histplot( df["PetalLengthCm"] ,  ax=axes[1, 0], kde=True, bins=12)
+sns.histplot( df["PetalWidthCm"] ,  ax=axes[1, 1], kde=True, bins=12)
+plt.suptitle("Fisher's Iris Dataset", size=20) 
+plt.legend()
+plt.savefig("Histplotextra.png")
 plt.show()
 
-
-
-
-#isplot1 = sns.histplot(df["SepalWidthCm"], bins=16, palette=("husl"))
-#plt.show()
-#plt.savefig("Hisplot2.png") 
