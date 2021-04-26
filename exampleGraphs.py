@@ -45,38 +45,36 @@ plt.savefig("Voilinplots.png")                                                  
 
 
 # Joint Plots
-sns.jointplot(x='PetalWidthCm', y='SepalWidthCm', data=df, height=6, palette=("husl"), kind="reg")
-#plt.show()
-plt.savefig("Jointplot.png")  
+sns.jointplot(x='PetalWidthCm', y='SepalWidthCm', data=df, height=6, palette=("husl"), kind="reg")    # Seaborn - jointplot ( set X axis / set Y axis ), Data from Iris File, height = 6, Palette (color code), kind - regular
+#plt.show()                                                                                           # Show plot 
+plt.savefig("Jointplot.png")                                                                          # Create file and save to file "Jointplot"
 
 
-sns.jointplot(x='PetalLengthCm', y='SepalLengthCm', data=df, height=6, palette=("husl"), kind="reg")
-#plt.show()
-plt.savefig("Jointplot2.png")
+sns.jointplot(x='PetalLengthCm', y='SepalLengthCm', data=df, height=6, palette=("husl"), kind="reg")  # Seaborn - jointplot ( set X axis / set Y axis ), Data from Iris File, height = 6, Palette (color code), kind - regular
+#plt.show()                                                                                           # Show plot 
+plt.savefig("Jointplot2.png")                                                                         # Create file and save to file "Jointplot"
 
 
+# Cat plot                                                              
 
-
-                                                                  
-
-#sns.catplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df, kind="swarm", palette=("husl"))  
+sns.catplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df, kind="swarm", palette=("husl"))  
+plt.tight_layout()
+plt.show()
+plt.savefig("catplot.png") 
+                                                            
+#sns.catplot(x="PetalWidthCm", y="PetalLengthCm",col="Species", data=df, kind="swarm", palette=("husl"), si)  
 #plt.tight_layout()
 #plt.show()
-#plt.savefig("catplot1.png") 
-
-                                                                
-sns.catplot(x="PetalWidthCm", y="PetalLengthCm",col="Species", data=df, kind="swarm", palette=("husl"))  
-plt.tight_layout()
-#plt.show()
-plt.savefig("catplot2.png") 
-
-
-
-
+#plt.savefig("catplot2.png") 
 
 sns.lmplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df, palette=("husl")) 
 #plt.show()
 plt.savefig("Implot.png") 
+
+
+sns.lmplot(x="PetalWidthCm", y="PetalLengthCm",col="Species", data=df, palette=("husl")) 
+#plt.show()
+plt.savefig("Implot2.png") 
 
 
 sns.displot(df["SepalWidthCm"], bins=16, palette=("husl"))
