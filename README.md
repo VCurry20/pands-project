@@ -468,9 +468,9 @@ I have also provided a Sample of the following graphs for you to view which used
 All references were accessed and correct as of April 2021
 
 ### Overview:
-[0] John Muirlaws, How to draw an Irish: part 2 (No Date) https://johnmuirlaws.com/how-to-draw-an-iris-part-2/  
-[1] Research Gate, What Should we know about the famous Iris Data? (March 2013) https://www.researchgate.net/publication/237010807_What_should_we_know_about_the_famous_Iris_data 
-[2] Towards Data Science, Exploring Classifiers with Python Scikit-learn – Iris Dataset (July 13 1020) https://towardsdatascience.com/exploring-classifiers-with-python-scikit-learn-iris-dataset-2bcb490d2e1b
+- [0] John Muirlaws, How to draw an Irish: part 2 (No Date) https://johnmuirlaws.com/how-to-draw-an-iris-part-2/  
+- [1] Research Gate, What Should we know about the famous Iris Data? (March 2013) https://www.researchgate.net/publication/237010807_What_should_we_know_about_the_famous_Iris_data 
+- [2] Towards Data Science, Exploring Classifiers with Python Scikit-learn – Iris Dataset (July 13 1020) https://towardsdatascience.com/exploring-classifiers-with-python-scikit-learn-iris-dataset-2bcb490d2e1b
 [3] Wikipedia, Irish Flower Data Set,  (September 14th 2018) - https://en.wikipedia.org/wiki/Iris_flower_data_set 
 [4] U.S forest Service, The Iris Flower, (No Date) https://www.fs.fed.us/wildflowers/beauty/iris/flower.shtml 
 [5] The Spruce, 9 Top Types of Iris for the Flower Garden, ( February 3rd, 2021) https://www.thespruce.com/irises-for-flower-garden-1315808  
@@ -554,6 +554,7 @@ https://cmdlinetips.com/2019/02/how-to-make-histogram-in-python-with-pandas-and-
 [16] Mathlab answers, How can I insert a title over a group of subplots? (April 26th, 2010) https://uk.mathworks.com/matlabcentral/answers/100459-how-can-i-insert-a-title-over-a-group-of-subplots 
 
 Seaborn Links:
+
 [1] Seaborn, Example Gallery, (2012 - 2021),  https://seaborn.pydata.org/examples/index.html 
 [2] Seaborn Org, seaborn.swarmplot, (2012 – 2020), https://seaborn.pydata.org/generated/seaborn.swarmplot.html 
 [3] Seaborn Org, Choosing Color Palettes, (2012 – 2020), https://seaborn.pydata.org/tutorial/color_palettes.html 
@@ -565,6 +566,7 @@ Seaborn Links:
 [9] Seaborn Org, Seaborn Histplot, (2012 – 2020), https://seaborn.pydata.org/generated/seaborn.histplot.html
 
 YouTube:
+
 Derek Banas, Matplotlib Tutorial, (August 22nd, 2020) https://www.youtube.com/watch?v=wB9C0Mz9gSo
 Derek Banas, Seaborn Tutorial, ( September 1st, 2020) https://www.youtube.com/watch?v=6GUZXDef2U0 
 
