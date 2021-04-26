@@ -400,7 +400,21 @@ Although there is a large number of graph options available, in this project we 
 
 > Scatterplot
 
->
 
->
+However I have provided a Sample of the following graphs for you to view:
+
+
+> Voilin Plots - [Sliceoutput.txt](https://github.com/VCurry20/pands-project/blob/main/Voilinplots.png)
+
+> Output File - [Sliceoutput.txt](https://github.com/VCurry20/pands-project/blob/main/Sliceoutput.txt)
+
+> Output File - [Sliceoutput.txt](https://github.com/VCurry20/pands-project/blob/main/Sliceoutput.txt)
+
+> Output File - [Sliceoutput.txt](https://github.com/VCurry20/pands-project/blob/main/Sliceoutput.txt)
+
+> Output File - [Sliceoutput.txt](https://github.com/VCurry20/pands-project/blob/main/Sliceoutput.txt)
+
+> Output File - [Sliceoutput.txt](https://github.com/VCurry20/pands-project/blob/main/Sliceoutput.txt)
+
+> Output File - [Sliceoutput.txt](https://github.com/VCurry20/pands-project/blob/main/Sliceoutput.txt)
 
