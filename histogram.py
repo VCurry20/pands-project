@@ -14,13 +14,18 @@ filename = 'kaggleIrisSet.csv'                      # Import File
 df = pd.read_csv(filename)                          # Set variable for file - Pandas - read the CSV file
 
 
+sns.set_style('ticks')                                      # set seaborn background
+sns.set_palette("bright")                                   # set seaborn color palette
+sns.color_palette("husl", 9)
 
-sns.FacetGrid(df, hue="type", height=3).map(sns.distplot,"PetalLengthCm").add_legend()
-sns.FacetGrid(df, hue="type", height=3).map(sns.distplot,"PetalWidthCm").add_legend()
-sns.FacetGrid(df, hue="type", height=3).map(sns.distplot,"SepalLengthCm").add_legend()
-sns.FacetGrid(df, hue="type", height=3).map(sns.distplot,"SepalWidthCm").add_legend()
+
+f, axes = plt.subplots(2, 2, figsize=(7, 7), sharex=True)
+plt.title("Fisher's Iris Dataset", size=20) 
+sns.histplot( df["SepalLengthCm"] , ax=axes[0, 0], legend=True, kde=True,bins=10 )
+sns.histplot( df["SepalWidthCm"] ,  ax=axes[0, 1], legend=True, kde=True, bins=8)
+sns.histplot( df["PetalLengthCm"] ,  ax=axes[1, 0], legend=True, kde=True)
+sns.histplot( df["PetalWidthCm"] ,  ax=axes[1, 1], legend=True, kde=True)
 plt.show()
-
 
 
 

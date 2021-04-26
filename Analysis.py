@@ -34,23 +34,36 @@ with open("analysisOutout.txt", "wt") as f:                                     
     print("\nThe Data grouped by Species is: \n \n",df.groupby("Species").size(), file=f)    # Outputs the data grouped by Species
 
 
+sns.set_palette("bright")                                                 # set seaborn color palette
+sns.set_style("ticks", {"xtick.major.size": 8, "ytick.major.size": 8})    # Set background style
+sns.color_palette("husl", 9)                                              # Set Color Palette
 
 
-
-#sns.set_style('whitegrid')                                      # set seaborn background
-sns.set_palette("bright")                                   # set seaborn color palette
-sns.set_style("ticks", {"xtick.major.size": 8, "ytick.major.size": 8})
 
 
 # Histogram of Variable
+
+# Simple Histogram Output
 hisplot1 = sns.histplot(df["SepalWidthCm"], bins=16, palette=("husl"))    
-#plt.show()
 plt.savefig("Hisplot.png") 
+plt.show()
 
+# Varients of Histogram 
+sns.histplot( data=df, x="SepalLengthCm", legend=True, kde=True, hue="Species", multiple="stack")
+plt.savefig("HisplotA.png") 
+plt.show()
 
+sns.histplot( data=df, x="SepalWidthCm", legend=True, hue="Species", element="poly")
+plt.savefig("HisplotB.png") 
+plt.show()
 
-     
+sns.histplot( data=df, x="PetalLengthCm", legend=True, kde=True, hue="Species", element="step",stat="density", common_norm=False)
+plt.savefig("HisplotC.png") 
+plt.show()
 
+sns.histplot( data=df, x="PetalWidthCm", y="Species", legend=True, hue="Species")
+plt.savefig("HisplotD.png") 
+plt.show()
 
 
 
