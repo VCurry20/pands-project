@@ -404,17 +404,17 @@ Although there is a large number of graph options available, in this project we 
 However I have provided a Sample of the following graphs for you to view:
 
 
-> Voilin Plots - [Voilinplots.png](https://github.com/VCurry20/pands-project/blob/main/Voilinplots.png)
+> Voilin Plots     - [Voilinplots.png](https://github.com/VCurry20/pands-project/blob/main/Voilinplots.png)
 
-> Joint Plots  - [Jointplot.png](https://github.com/VCurry20/pands-project/blob/main/Jointplot.png)
+> Joint Plots      - [Jointplot.png](https://github.com/VCurry20/pands-project/blob/main/Jointplot.png)
 
-> Joint Plot 2 - [Jointplot2.png](https://github.com/VCurry20/pands-project/blob/main/Jointplot2.png)
+> Joint Plot 2     - [Jointplot2.png](https://github.com/VCurry20/pands-project/blob/main/Jointplot2.png)
 
-> Output File - [Sliceoutput.txt](https://github.com/VCurry20/pands-project/blob/main/Sliceoutput.txt)
+> Catagorical Plot - [catplot.png](https://github.com/VCurry20/pands-project/blob/main/catplot.png)
 
-> Output File - [Sliceoutput.txt](https://github.com/VCurry20/pands-project/blob/main/Sliceoutput.txt)
+> Implot           - [implot.pgn](https://github.com/VCurry20/pands-project/blob/main/Implot.png)
 
-> Output File - [Sliceoutput.txt](https://github.com/VCurry20/pands-project/blob/main/Sliceoutput.txt)
+> Implot 2         - [implot2.png](https://github.com/VCurry20/pands-project/blob/main/Implot2.png)
 
-> Output File - [Sliceoutput.txt](https://github.com/VCurry20/pands-project/blob/main/Sliceoutput.txt)
+> Distribution Plot  - [Distplot.txt](https://github.com/VCurry20/pands-project/blob/main/Distplot.png)
 
