@@ -34,31 +34,39 @@ with open("analysisOutout.txt", "wt") as f:                                     
     print("\nThe Data grouped by Species is: \n \n",df.groupby("Species").size(), file=f)    # Outputs the data grouped by Species
 
 
-# 
+
+
+
+#sns.set_style('whitegrid')                                      # set seaborn background
+sns.set_palette("bright")                                   # set seaborn color palette
+sns.set_style("ticks", {"xtick.major.size": 8, "ytick.major.size": 8})
+
+
+# Histogram of Variable
+
+
+
+
+     
 
 
 
 
 
-
-
-
-
-
-# Scatterplots
-plt.figure(figsize=(10,10))
-plt.subplot(2,2,1)
-scatterplot = sns.scatterplot(x = "SepalLengthCm", y = "SepalWidthCm", data = df, hue="Species", legend=True, palette=("husl")) 
-plt.subplot(2,2,2)
-scatterplot = sns.scatterplot(x = "PetalLengthCm", y = "PetalWidthCm", data = df, hue="Species", legend=True, palette=("husl")) 
-plt.subplot(2,2,3)
-scatterplot = sns.scatterplot(x = "SepalLengthCm", y = "PetalLengthCm", data = df, hue="Species", legend=True, palette=("husl")) 
-plt.subplot(2,2,4)
-scatterplot = sns.scatterplot(x = "SepalWidthCm", y = "PetalWidthCm", data = df, hue="Species", legend=True, palette=("husl"))
-plt.suptitle("Fisher's Iris Dataset", size=20)
-plt.tight_layout()
-#plt.show()
-plt.savefig("Scatterplots.png") 
+# Scatterplots of Variables
+plt.figure(figsize=(10,10))                                                                                              # plot figure size
+plt.subplot(2,2,1)                                                                                                       # subplot - 2 * 2 - plot 1
+sns.scatterplot(x = "SepalLengthCm", y = "SepalWidthCm", data = df, hue="Species", legend=True, palette=("husl"))        # Seaborn Scatterplot - ( set X axis / set Y axis ), Data from Iris File, Hue - Species, include a legend, Palette - set color
+plt.subplot(2,2,2)                                                                                                       # subplot - 2 * 2 - plot 2
+sns.scatterplot(x = "PetalLengthCm", y = "PetalWidthCm", data = df, hue="Species", legend=True, palette=("husl"))        # Seaborn Scatterplot - ( set X axis / set Y axis ), Data from Iris File, Hue - Species, include a legend, Palette - set colo
+plt.subplot(2,2,3)                                                                                                       # subplot - 2 * 2 - plot 3
+sns.scatterplot(x = "SepalLengthCm", y = "PetalLengthCm", data = df, hue="Species", legend=True, palette=("husl"))       # Seaborn Scatterplot - ( set X axis / set Y axis ), Data from Iris File, Hue - Species, include a legend, Palette - set colo
+plt.subplot(2,2,4)                                                                                                       # subplot - 2 * 2 - plot 4
+sns.scatterplot(x = "SepalWidthCm", y = "PetalWidthCm", data = df, hue="Species", legend=True, palette=("husl"))         # Seaborn Scatterplot - ( set X axis / set Y axis ), Data from Iris File, Hue - Species, include a legend, Palette - set colo
+plt.suptitle("Fisher's Iris Dataset", size=20)                                                                           # Set over all plot title - Size 20
+plt.tight_layout()                                                                                                       # Crop output
+#plt.show()                                                                                                              # Show plot 
+plt.savefig("Scatterplots.png")                                                                                          # Create file and save to file "Voilinplot"
 
 
 

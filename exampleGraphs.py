@@ -42,11 +42,17 @@ plt.tight_layout()                                                              
 plt.savefig("Voilinplots.png")                                                       # Create file and save to file "Voilinplot"
 
 
-# Joint Plot
-jointplot = sns.jointplot(x='SepalWidthCm', y='SepalLengthCm', data=df, height=6, palette=("husl"), kind="reg")
+
+
+# Joint Plots
+jointplot = sns.jointplot(x='PetalWidthCm', y='SepalWidthCm', data=df, height=6, palette=("husl"), kind="reg")
 #plt.show()
 plt.savefig("Jointplot.png")  
 
+
+jointplot = sns.jointplot(x='PetalLengthCm', y='SepalLengthCm', data=df, height=6, palette=("husl"), kind="reg")
+#plt.show()
+plt.savefig("Jointplot2.png")
 
 
 
