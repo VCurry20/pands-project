@@ -392,7 +392,7 @@ This is not an exhaustive list of the potential of Python and the ways it can be
 
 Matplotlib and Seaborn will now be used in conjunction with NumPy and Pandas to plot and print graphs of the Dataset, this offers visualisation of the data and can be used for analysis and also for presentating findings.
 
-For an overview of the possibilities of this process please review the following: [Plotting Gallery](https://seaborn.pydata.org/examples/index.html)
+For an overview of the possibilities of the graphs the can be created using this process please review the following: [Plotting Gallery](https://seaborn.pydata.org/examples/index.html)
 
 Although there is a large number of graph options available, in this project we will review the following:
 
@@ -408,8 +408,11 @@ Although there is a large number of graph options available, in this project we 
 
 ![alt text](https://github.com/VCurry20/pands-project/blob/main/Hisplot.png)
 
-In the image above you can see a classic example of a histogram - offering a represention of one varible ( Sepal Width). However with 
+"A histogram is a classic visualization tool that represents the distribution of one or more variables by counting the number of observations that fall within disrete bins." [9]
 
+In the image above you can see a classic example of a histogram - offering a represention of one varible ( Sepal Width). However with option is simplistic and offers little to the creater or to the viewer.
+
+The following are four examples how data, the Fishers Iris dataset, can be viewed and compared:
 
 <br/>
 
