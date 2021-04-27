@@ -90,17 +90,16 @@ plt.savefig("pairplot.png")                                                     
 
 # Boxplot
 
-plt.figure(figsize=(10,10))
-plt.subplot(2,2,1) 
-sns.boxplot(x=("Species"), y=("SepalLengthCm"), data=df, palette=("husl"))
-plt.subplot(2,2,2) 
-sns.boxplot(x=("Species"), y=("SepalWidthCm"), data=df, palette=("husl"))
-plt.subplot(2,2,3) 
-sns.boxplot(x=("Species"), y=("PetalLengthCm"), data=df, palette=("husl"))
-plt.subplot(2,2,4) 
-sns.boxplot(x=("Species"), y=("PetalWidthCm"), data=df, palette=("husl"))
-plt.suptitle("Fisher's Iris Dataset", size=20) 
-plt.legend()
-plt.tight_layout()                                                                                                       # Crop output
-#plt.show()                                                                                                              # Show plot 
-plt.savefig("boxs.png") 
+plt.figure(figsize=(10,10))                                                    # Plt Figure - Size
+plt.subplot(2,2,1)                                                             # Plot Subplots - 2 * 2 - Number 1
+sns.boxplot(x=("Species"), y=("SepalLengthCm"), data=df, palette=("husl"))     # Seaborn - Boxplot - x = Sepcies /  Y = Sepal Length, Data = Fisher Iris, Palette Color
+plt.subplot(2,2,2)                                                             # Plot Subplots - 2 * 2 - Number 2
+sns.boxplot(x=("Species"), y=("SepalWidthCm"), data=df, palette=("husl"))      # Seaborn - Boxplot - x = Sepcies /  Y = Sepal Width, Data = Fisher Iris, Palette Color
+plt.subplot(2,2,3)                                                             # Plot Subplots - 2 * 2 - Number 3
+sns.boxplot(x=("Species"), y=("PetalLengthCm"), data=df, palette=("husl"))     # Seaborn - Boxplot - x = Sepcies /  Y = Petal Length, Data = Fisher Iris, Palette Color
+plt.subplot(2,2,4)                                                             # Plot Subplots - 2 * 2 - Number 4
+sns.boxplot(x=("Species"), y=("PetalWidthCm"), data=df, palette=("husl"))      # Seaborn - Boxplot - x = Sepcies /  Y = Petal Width, Data = Fisher Iris, Palette Color
+plt.suptitle("Fisher's Iris Dataset", size=20)                                 # Plot Title - Fisher's Iris Dataset
+plt.tight_layout()                                                             # Crop plots                                        
+#plt.show()                                                                    # Plot Show 
+plt.savefig("boxs.png")                                                        # Plot Save "boxes.png"
