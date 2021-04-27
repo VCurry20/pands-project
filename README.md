@@ -491,7 +491,7 @@ plt.savefig("Scatterplots.png")                                                 
 <br/>
 <br/>
 
-I have also provided a Sample of the following graphs for you to view which also used the Fisher's Iris Dataset:
+I have also provided samples of the following graphs for you to view which also used the Fisher's Iris Dataset:
 
 
 > Voilin Plots     - [Voilinplots.png](https://github.com/VCurry20/pands-project/blob/main/Voilinplots.png)
@@ -518,7 +518,8 @@ I have also provided a Sample of the following graphs for you to view which also
 
 ## Conclusion
 
-
+This code shows the the Iris Setosa is the smallest of the plants and the Iris Virginica is the largest. 
+Sepal width increases across the three plants in the order, 
 
 
 

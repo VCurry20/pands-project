@@ -77,11 +77,13 @@ plt.savefig("Implot2.png")                                                      
 
 
 # Distrubtion chart
-sns.displot(df["SepalWidthCm"], bins=16, palette=("husl"))             # Seaborn - distrubution plot ( choose one variable, 16 bins along the axis, color palette)              
-#plt.show()                                                            # Show plot 
-plt.savefig("Distplot.png")                                            # Create file and save to file "Distplot"
+sns.displot(data=df, x="SepalLengthCm", hue="Species", bins=16, palette=("husl"))    # Seaborn - distrubution plot ( choose one variable, 16 bins along the axis, color palette)              
+#plt.show()                                                                          # Show plot 
+plt.savefig("Distplot.png")                                                          # Create file and save to file "Distplot"
 
-
+#sns.displot(data=df, x="SepalWidthCm", hue="Species", bins=10, rug=True, palette=("husl"))
+#sns.displot(data=df, x="PetalLengthCm", hue="Species", bins=16, kde=True,  palette=("husl"))
+#sns.displot(data=df, x="PetalWidthCm", hue="Species", bins=8, kde_kws={"shade": True}, palette=("husl")) 
 
 # Pairplots
 sns.pairplot( df,hue='Species',height=3,vars=['SepalWidthCm','SepalLengthCm','PetalLengthCm','PetalWidthCm'],kind='scatter', palette=("husl")) # Seaborn - distrubution plot ( choose one variable, 16 bins along the axis, color palette) 
