@@ -688,6 +688,10 @@ https://cmdlinetips.com/2019/02/how-to-make-histogram-in-python-with-pandas-and-
 
 [17] Wikipedia, Scatterplot, (December 23rd, 2003) https://en.wikipedia.org/w/index.php?title=Scatter_plot&action=history 
 
+[18] Python basis, Seaborn Boxplot, (2021) https://pythonbasics.org/seaborn-boxplot/ 
+
+[19] Python Graph Gallery, Basic Boxplot with Seaborn, (2018) https://www.python-graph-gallery.com/30-basic-boxplot-with-seaborn
+
 
 Seaborn Links:
 
@@ -715,6 +719,8 @@ YouTube:
 [1] Derek Banas, Matplotlib Tutorial, (August 22nd, 2020) https://www.youtube.com/watch?v=wB9C0Mz9gSo
 
 [2] Derek Banas, Seaborn Tutorial, ( September 1st, 2020) https://www.youtube.com/watch?v=6GUZXDef2U0 
+
+[3] Kimberly Fessel, Seaborn Boxplot (June 30th, 2020) https://www.youtube.com/watch?v=Vo-bfTqEFQk 
 
 
 ### Conclusion:
