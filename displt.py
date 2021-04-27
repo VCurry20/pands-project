@@ -1,4 +1,3 @@
-
 import numpy as np                                          # Inport NumPy
 import pandas as pd                                         # Import Pandas
 import matplotlib.pyplot as plt                             # Import Matplotlib 
@@ -12,12 +11,7 @@ sns.set_style('ticks')                                      # set seaborn backgr
 sns.set_palette("bright")                                   # set seaborn color palette
 
 
-# Implot
-sns.lmplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df, palette=("husl"))   # Seaborn - jointplot ( set X axis / set Y axis ), Data from Iris File, Palette (color code)
-#plt.subplots()
-ax.legend()
-plt.show()                                                                                # Show plot 
-
-
-
-
+# Distrubtion chart
+sns.displot(df["SepalWidthCm"], bins=16, palette=("husl"))             # Seaborn - distrubution plot ( choose one variable, 16 bins along the axis, color palette)              
+#plt.show()                                                            # Show plot 
+plt.savefig("Distplot.png")                                            # Create file and save to file "Distplot"

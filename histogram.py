@@ -21,12 +21,11 @@ sns.color_palette("husl", 9)
 
 
 f, axes = plt.subplots(2, 2, figsize=(7, 7), sharex=True)
-sns.histplot( df["SepalLengthCm"] , ax=axes[0, 0],kde=True, bins=12 )
-sns.histplot( df["SepalWidthCm"] ,  ax=axes[0, 1], kde=True, bins=12)
-sns.histplot( df["PetalLengthCm"] ,  ax=axes[1, 0], kde=True, bins=12)
-sns.histplot( df["PetalWidthCm"] ,  ax=axes[1, 1], kde=True, bins=12)
+sns.histplot( df, x="SepalLengthCm",  ax=axes[0, 0],kde=True, hue="Species", bins=12)
+sns.histplot( df, x="SepalWidthCm", ax=axes[0, 1], kde=True, hue="Species", bins=12)
+sns.histplot( df, x="PetalLengthCm", ax=axes[1, 0], kde=True,hue="Species",  bins=12)
+sns.histplot( df, x="PetalWidthCm", ax=axes[1, 1], kde=True, hue="Species", bins=12)
+#sns.despine(fig=None, ax=None, top=False, right=False, left=False, bottom=False, offset=None, trim=False)
 plt.suptitle("Fisher's Iris Dataset", size=20) 
-plt.legend()
 plt.savefig("Histplotextra.png")
 plt.show()
-
