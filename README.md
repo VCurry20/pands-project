@@ -512,6 +512,9 @@ I have also provided a Sample of the following graphs for you to view which also
 
 > Box Plot  - [boxs.png](https://github.com/VCurry20/pands-project/blob/main/boxs.png)
 
+> Additional Histogram  - [Histplotextra.png](https://github.com/VCurry20/pands-project/blob/main/Histplotextra.png)
+
+
 
 ## Conclusion
 
