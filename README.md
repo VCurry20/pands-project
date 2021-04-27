@@ -470,6 +470,8 @@ plt.show()                                                                      
 
 The above is an image of 4 scatterplots outputted to one PGN file which compare the 4 variables across the Species and offers the viewer macro view of the varients.
 
+
+Scatterplot Code
 ``` python
 
 # Scatterplots of Variables
