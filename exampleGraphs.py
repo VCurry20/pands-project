@@ -63,11 +63,13 @@ plt.show()
 
 # Implot
 sns.lmplot(x="SepalWidthCm", y="SepalLengthCm",col="Species", data=df, palette=("husl"))   # Seaborn - jointplot ( set X axis / set Y axis ), Data from Iris File, Palette (color code)
+plt.legend()
 #plt.show()                                                                                # Show plot 
 plt.savefig("Implot.png")                                                                  # Create file and save to file "implot"
  
 
 sns.lmplot(x="PetalWidthCm", y="PetalLengthCm",col="Species", data=df, palette=("husl"))   # Seaborn - jointplot ( set X axis / set Y axis ), Data from Iris File, Palette (color code)
+plt.legend()
 #plt.show()                                                                                # Show plot 
 plt.savefig("Implot2.png")                                                                 # Create file and save to file "implot2"
 
@@ -83,6 +85,7 @@ plt.savefig("Distplot.png")                                            # Create 
 
 # Pairplots
 sns.pairplot( df,hue='Species',height=3,vars=['SepalWidthCm','SepalLengthCm','PetalLengthCm','PetalWidthCm'],kind='scatter', palette=("husl")) # Seaborn - distrubution plot ( choose one variable, 16 bins along the axis, color palette) 
+plt.legend()
 #plt.show()                                                                                                                                    # Show plot
 plt.savefig("pairplot.png")                                                                                                                    # Create file and save to file "Pairplot"
 
