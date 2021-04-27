@@ -454,8 +454,6 @@ plt.tight_layout()                                                              
 plt.savefig("HisplotD.png")                                                          # Create file and save to file "Histplot C"  
 plt.show()                                                                           # Show plot
 
-
-
 ```
 
 
@@ -490,12 +488,6 @@ plt.tight_layout()                                                              
 plt.savefig("Scatterplots.png")                                                                                          # Create file and save to file "Voilinplot"
 
 ```
-
-
-
-
-
-
 
 
 
