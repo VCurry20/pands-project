@@ -12,9 +12,18 @@ sns.set_style('ticks')                                      # set seaborn backgr
 sns.set_palette("bright")                                   # set seaborn color palette
 
 
-boxData = [["SepalLengthCm", "SepalLengthCm", "PetalLengthCm", "PetalWidthCm"]]
 
-# print (boxData)
+plt.figure(figsize=(10,10))
+plt.subplot(2,2,1) 
+sns.boxplot(x=("Species"), y=("SepalLengthCm"), data=df, palette=("husl"))
+plt.subplot(2,2,2) 
+sns.boxplot(x=("Species"), y=("SepalWidthCm"), data=df, palette=("husl"))
+plt.subplot(2,2,3) 
+sns.boxplot(x=("Species"), y=("PetalLengthCm"), data=df, palette=("husl"))
+plt.subplot(2,2,4) 
+sns.boxplot(x=("Species"), y=("PetalWidthCm"), data=df, palette=("husl"))
+plt.suptitle("Fisher's Iris Dataset", size=20)                                                                           # Set over all plot title - Size 20
+plt.tight_layout()                                                                                                       # Crop output
+#plt.show()                                                                                                              # Show plot 
+plt.savefig("boxs.png")  
 
-sns.boxplot( data=boxData, orient= "h", palette=("husl"))
-plt.show()

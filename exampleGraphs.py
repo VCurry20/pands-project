@@ -90,13 +90,16 @@ plt.savefig("pairplot.png")                                                     
 
 # Boxplot
 
-setosa = df.loc[df["Species"] =="Iris-setosa"]              # Set variable for specific Iris - Setosa
-versicolor = df.loc[df["Species"] =="Iris-versicolor"]      # Set variable for specific Iris - Versicolor
-virginica = df.loc[df["Species"] =="Iris-virginica"]        # Set variable for specific Iris - Virginica
-
-boxData = [setosa, versicolor, virginica]
-
-# print (boxData)
-
-sns.boxplot( df, orient= "h", alette=("husl"), legend=True)
-plt.show()
+plt.figure(figsize=(10,10))
+plt.subplot(2,2,1) 
+sns.boxplot(x=("Species"), y=("SepalLengthCm"), data=df, palette=("husl"))
+plt.subplot(2,2,2) 
+sns.boxplot(x=("Species"), y=("SepalWidthCm"), data=df, palette=("husl"))
+plt.subplot(2,2,3) 
+sns.boxplot(x=("Species"), y=("PetalLengthCm"), data=df, palette=("husl"))
+plt.subplot(2,2,4) 
+sns.boxplot(x=("Species"), y=("PetalWidthCm"), data=df, palette=("husl"))
+plt.suptitle("Fisher's Iris Dataset", size=20)                                                                           # Set over all plot title - Size 20
+plt.tight_layout()                                                                                                       # Crop output
+#plt.show()                                                                                                              # Show plot 
+plt.savefig("boxs.png") 
