@@ -99,7 +99,8 @@ plt.subplot(2,2,3)
 sns.boxplot(x=("Species"), y=("PetalLengthCm"), data=df, palette=("husl"))
 plt.subplot(2,2,4) 
 sns.boxplot(x=("Species"), y=("PetalWidthCm"), data=df, palette=("husl"))
-plt.suptitle("Fisher's Iris Dataset", size=20)                                                                           # Set over all plot title - Size 20
+plt.suptitle("Fisher's Iris Dataset", size=20) 
+plt.legend()
 plt.tight_layout()                                                                                                       # Crop output
 #plt.show()                                                                                                              # Show plot 
 plt.savefig("boxs.png") 
