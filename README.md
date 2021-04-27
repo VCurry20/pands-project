@@ -459,7 +459,7 @@ plt.show()                                                                      
 ```
 
 
-### Histogram
+### Scatterplot
 
 <br/>
 
