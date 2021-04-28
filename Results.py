@@ -29,7 +29,7 @@ virginica = df.loc[df["Species"] =="Iris-virginica"]        # Set variable for s
 #print(virginica)                                           # Unhighlight to print in code in VS Code / Terminal
 
 
-with open("review.txt", "wt") as f:                                               # Open File "Analysisout" as a txt file, in write txt mode
+with open("results.txt", "wt") as f:                                               # Open File "Analysisout" as a txt file, in write txt mode
     print("\nThe full breakdown is: \n", df.describe(), file=f)                   # Breakdown of the csv - outputs a review of the numerical data
     print("\nThe Iris Setosa breakdown is: \n", setosa.describe(), file=f)        # Outputs just the Setosa variable breakdown data
     print("\nThe Iris Versicolor breakdown is: \n",versicolor.describe(), file=f) # Outputs just the versicolor variable breakdown data
