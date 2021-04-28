@@ -16,13 +16,13 @@ Completed: April 2021
 <br/>
 
 ## Overview
-The purpose of this project is to research Fisher's Iris Dataset and to show how Python can be used to investigate datasets and output the results to graphs. I will be using Fisher's Dataset as an example of the functionality of Python and to outline ways in which the analysis carried out on this Dataset is transferable. I have included in this Respository the datasets, outputs and also the code used.
+The purpose of this project is to research Fisher's Iris Dataset and to show how Python can be used to investigate datasets and output the results to graphs. I will be using Fisher's Dataset as an example of the functionality of Python and to outline ways in which the analysis carried out on this Dataset is transferable. I have included in this respository the datasets, outputs and also the code used.
 
 The Fisher Iris Dataset examines three species of Iris Plant – Iris Setosa, Iris Virginica, and Iris Versicolor. It outlines their petal width and length, and their sepal width and length. There are 50 samples of each of the three species, resulting in a 150 line data set. [1]
 
 This Dataset has been used for pattern analysis, statistics, and more recently for machine learning and for the teaching of data analysis. This use has far outweighed its importance as information about the biology of the plants, with botanists now even questioning if Iris plants have a Sepal. [16]
 
-The Dataset is large enough to demonstrate the principles of using a program like python while not so large as to overwhelm a student, it has no missing data, there are 4 attributes covering three different plants and all the data is in the same format and unit type. The data set is now also present as a built-in data set which can be imported directly into Python. [16]
+The Dataset is large enough to demonstrate the principles of using a program like Python while not so large as to overwhelm a student, it has no missing data, there are 4 attributes covering three different plants and all the data is in the same format and unit type. The data set is now also present as a built-in data set which can be imported directly into Python. [16]
 
 
 <br/>
@@ -70,7 +70,7 @@ Iris Setosa
 ![alt text](https://github.com/VCurry20/pands-project/blob/main/Images/Irissetosa.wildflowerorg.jpg)
 [12]
 
-This is an Iris which grows in Alaska, Maine, Canada, and parts of Asia. Although it is poisonous it has been used, when cooked, by various Peoples throough out the World for both food and for medicinal reasons. It is currently on a red list of endangered Japanese plants. [13] 
+This is an Iris which grows in Alaska, Maine, Canada, and parts of Asia. Although it is poisonous it has been used, when cooked, by various Peoples throughout the World for both food and for medicinal reasons. It is currently on a red list of endangered Japanese plants. [13] 
 
 
 <br/>
@@ -129,7 +129,7 @@ import seaborn as sns
 
 Analytical Modules
 
-NumPy or Numerical Python is a general-purpose numerical module for python, it is the main module for scientific computing in Python. This is a numerical library, which stores data in matrices which are called arrays. The underlying code for NumPy is written in C code or the C language which makes this a very fast module. NumPy can be used for a wide range of operations on arrays including maths, logical operations, sorting, algebra, and statistical operations. NumPy is a core module of Python which Pandas is built upon. [6] [7] [8] [9]
+NumPy or Numerical Python is a general-purpose numerical module for Python, it is the main module for scientific computing in Python. This is a numerical library, which stores data in matrices which are called arrays. The underlying code for NumPy is written in C code or the C language which makes this a very fast module. NumPy can be used for a wide range of operations on arrays including maths, logical operations, sorting, algebra, and statistical operations. NumPy is a core module of Python which Pandas is built upon. [6] [7] [8] [9]
 
 Pandas is an open source module which operates in conjunction with NumPy. It is a Data Analysis module which allows the user to manipulate, clean, slice, index, and merge data. Data is stored in data frames (df). Pandas can read from and output to a wide range of data structures and formats including CSV and Excel.  [10] [11] [12] 
 
@@ -177,7 +177,7 @@ with open("irisImport.txt", "wt") as f:
 
 ### Review of Dataset
 
-Using python we can break down the Fisher Iris Dataset and then analyise the various components of it. I have included the Python Files as follows:
+Using Python we can break down the Fisher Iris Dataset and then analyise the various components of it. I have included the Python Files as follows:
 
 > Python File - [Overview.py](https://github.com/VCurry20/pands-project/blob/main/Overview.py)
 
