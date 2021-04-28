@@ -521,7 +521,6 @@ I have also provided samples of the following graphs for you to view which also 
 The data review shows the the Iris Setosa is the smallest of the plants and the Iris Virginica is the largest, however the size of individual components vary.
 Sepal length increases across the three plants in the following order  setosa -> vericolor -> virginica; which can be seen in the Cat Plot.
 
-
 The following results from a review of each plant also outlines how the mean Petal Width values increase across the plants in the same order:
 
 > Results Code  - [results.py](https://github.com/VCurry20/pands-project/blob/main/results.py)
@@ -552,6 +551,22 @@ min    101.00000        4.90000      2.200000       4.500000       1.40000
 
 ```
 > Results output  - [results.txt](https://github.com/VCurry20/pands-project/blob/main/results.txt)
+
+Reviewing the scatterplots offers a comparison of variables, and offers a visual representation of the disparate measurements.
+
+Python as outlined above offers an excessible programming option to review data and offer visualisation of both data and the results of data review.
+
+
+### Next Step
+
+As a future project and for review an additional data visualisation module such as Bokeh could be added in to Python to give interactive visualisation. [1]
+
+Data visualisation is now wise spread and highly creative. One of the main issues users will face is which program to use and what graph is most applicable - the possibilities are endless.
+
+Please enjoy this one last link outlining a what makes a good visualisation - [ Data Visualisation](https://informationisbeautiful.net/visualizations/what-makes-a-good-data-visualization/)
+
+
+
 
 
 ## References:
@@ -755,6 +770,8 @@ YouTube:
 
 
 ### Conclusion:
+
+[1] Bokeh Org, Gallery, (2021) https://docs.bokeh.org/en/latest/docs/gallery.html  
 
 
 
