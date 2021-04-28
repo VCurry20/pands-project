@@ -519,7 +519,9 @@ I have also provided samples of the following graphs for you to view which also 
 ## Conclusion
 
 This code shows the the Iris Setosa is the smallest of the plants and the Iris Virginica is the largest. 
-Sepal width increases across the three plants in the order, 
+Sepal width increases across the three plants in the order - setosa - vericolor - virginica.
+
+
 
 
 
