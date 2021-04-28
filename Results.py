@@ -16,9 +16,6 @@ df = pd.read_csv(filename)                                  # Set variable for f
 
 # print(df[10:21])                                          # Print lines 10 - 20
 
-specific_data=df[["Id", "Species"]]                         # Set variable for specific data
-#print (specific_data)                                      # Unhighlight to print in code in VS Code / Terminal
-
 setosa = df.loc[df["Species"] =="Iris-setosa"]              # Set variable for specific data
 #print(setosa)                                              # Unhighlight to print in code in VS Code / Terminal
 
