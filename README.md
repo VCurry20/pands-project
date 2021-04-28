@@ -396,9 +396,9 @@ For an overview of the possibilities of the graphs the can be created using this
 
 Although there is a large number of graph options available, in this project we will review the following:
 
-> Histrogram
+- Histrogram
 
-> Scatterplot
+- Scatterplot
 
 
 <br/>
