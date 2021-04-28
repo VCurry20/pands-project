@@ -519,8 +519,10 @@ I have also provided samples of the following graphs for you to view which also 
 ## Results and Conclusion
 
 This code shows the the Iris Setosa is the smallest of the plants and the Iris Virginica is the largest. 
-Sepal width increases across the three plants in the order - setosa - vericolor - virginica.
+Sepal length increases across the three plants in the following order  setosa -> vericolor -> virginica; which can be seen in the Cat Plot.
+The following results from a review of each plant also outlines how the mean Petal Width values increase across the plants in the same order:
 
+> Results Code  - [Results.py](https://github.com/VCurry20/pands-project/blob/main/Results.py)
 
 ``` python
 The Iris Setosa breakdown is: 
@@ -547,7 +549,7 @@ std     14.57738        0.63588      0.322497       0.551895       0.27465
 min    101.00000        4.90000      2.200000       4.500000       1.40000
 
 ```
-
+> Results output  - [results.txt](https://github.com/VCurry20/pands-project/blob/main/results.txt)
 
 
 ## References:
