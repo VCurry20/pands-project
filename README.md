@@ -29,13 +29,13 @@ The Dataset is large enough to demonstrate the principles of using a program lik
 
 In this project I will include the following:
 
-> An overview of the Dataset 
+- An overview of the Dataset 
 
-> A guide to python and modules within Python we used to review the Dataset
+- A guide to python and modules within Python we used to review the Dataset
 
-> Display the results of Python analysis of the Dataset
+- Display the results of Python analysis of the Dataset
 
-> Display graphs of the Dataset 
+- Display graphs of the Dataset 
 
 <br/>
 
