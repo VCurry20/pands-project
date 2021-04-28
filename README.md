@@ -104,15 +104,15 @@ In this project we will review 4 of these modules, running python via VScode and
 
 Common uses of Python:
 
-> Automation of Tasks
+- Automation of Tasks
 
-> Visualisation of Data
+- Visualisation of Data
 
-> Data Analysis
+- Data Analysis
 
-> Machine Learning
+- Machine Learning
 
-> AI
+- AI
 
 
 ### Modules Review
@@ -524,6 +524,7 @@ Sepal length increases across the three plants in the following order  setosa ->
 The following results from a review of each plant also outlines how the mean Petal Width values increase across the plants in the same order:
 
 > Results Code  - [results.py](https://github.com/VCurry20/pands-project/blob/main/results.py)
+[2]
 
 ``` python
 The Iris Setosa breakdown is: 
