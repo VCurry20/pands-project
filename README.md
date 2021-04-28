@@ -574,13 +574,13 @@ All references were accessed and correct as of April 2021
 
 ### Overview:
 
-[0] John Muirlaws, How to draw an Irish: part 2 (No Date) https://johnmuirlaws.com/how-to-draw-an-iris-part-2/  
+[0] John Muirlaws, How to draw an Iris: part 2 (No Date) https://johnmuirlaws.com/how-to-draw-an-iris-part-2/  
 
 [1] Research Gate, What Should we know about the famous Iris Data? (March 2013) https://www.researchgate.net/publication/237010807_What_should_we_know_about_the_famous_Iris_data 
 
 [2] Towards Data Science, Exploring Classifiers with Python Scikit-learn – Iris Dataset (July 13 1020) https://towardsdatascience.com/exploring-classifiers-with-python-scikit-learn-iris-dataset-2bcb490d2e1b
 
-[3] Wikipedia, Irish Flower Data Set,  (September 14th 2018) - https://en.wikipedia.org/wiki/Iris_flower_data_set 
+[3] Wikipedia, Iris Flower Data Set,  (September 14th 2018) - https://en.wikipedia.org/wiki/Iris_flower_data_set 
 
 [4] U.S forest Service, The Iris Flower, (No Date) https://www.fs.fed.us/wildflowers/beauty/iris/flower.shtml 
 
@@ -772,6 +772,8 @@ YouTube:
 ### Conclusion:
 
 [1] Bokeh Org, Gallery, (2021) https://docs.bokeh.org/en/latest/docs/gallery.html  
+
+[2] Information is Beautiful (2021) https://informationisbeautiful.net/visualizations/what-makes-a-good-data-visualization/
 
 
 
