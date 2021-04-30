@@ -564,7 +564,7 @@ As a future project and for review an additional data visualisation module such 
 
 Data visualisation is now widely used and highly creative. One of the main issues users will face is which program to use and what graph is most applicable - the possibilities are endless.
 
-Please enjoy this one last link outlining what makes a good visualisation - [ Data Visualisation](https://informationisbeautiful.net/visualizations/what-makes-a-good-data-visualization/)
+Please enjoy this one last link outlining what makes a [ Good Visualisation](https://informationisbeautiful.net/visualizations/what-makes-a-good-data-visualization/)
 
 
 
